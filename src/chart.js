@@ -123,7 +123,7 @@ window.chartColors = {
 
 	// DEPRECATED
 	window.randomScalingFactor = function() {
-		return Math.round(Samples.utils.rand(-100, 100));
+		return Math.round(Samples.utils.rand(0, 500))
 	};
 
 	// INITIALIZATION
@@ -144,37 +144,41 @@ window.chartColors = {
 
 }(this));
 
-console.log('randomScalingFactor', randomScalingFactor());
-
 var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 var config = {
   type: 'line',
   data: {
     labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
     datasets: [{
-      label: '空氣污染',
+      label: 'Pollution',
       backgroundColor: '#14bf98',
       borderColor: '#14bf98',
       data: [
-				10,
-				20,
-				30,
-				40,
-				50,
-      ],
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+			],
       fill: false,
     }, {
-      label: '感染疾病',
+      label: 'Disease',
       fill: false,
       backgroundColor: '#ff2e5d',
       borderColor: '#ff2e5d',
       data: [
-				15,
-				25,
-				35,
-				45,
-				55,
-      ],
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+				randomScalingFactor(),
+			],
     }]
   },
   options: {
@@ -199,7 +203,7 @@ var config = {
         display: true,
         scaleLabel: {
           display: true,
-          labelString: 'Value'
+          labelString: 'PM2.5'
         }
       }]
     }
