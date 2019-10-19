@@ -8,11 +8,12 @@
 
 body {
   padding-top: 0;
+  background: #2b3135;
 }
 
 .space_block {
   position: relative;
-  background: #2b3135;
+//   background: #2b3135;
   min-height: 100vh;
   width: 100%;
 }
@@ -47,7 +48,7 @@ $btn_color: #a3bed2;
   left: 0;
   top: 0;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(134, 134, 134, 0.3);
   border-radius: 5px;
   .search_bar {
     display: block;
@@ -131,15 +132,16 @@ $btn_color: #a3bed2;
 }
 
 .data_block {
+  display: none;
   position: fixed;
   top: 20px;
   right: 20px;
   width: calc(100% - 380px);
   max-height: calc(100vh - 20px);
   overflow: auto;
-  padding:35px 15px 15px 15px;
+  padding: 35px 15px 15px 15px;
   border-radius: 5px;
-  background: rgba(29, 29, 29, 0.8);
+  background: rgba(58, 58, 58, 0.8);
 
   .close_btn {
     position: absolute;
@@ -157,9 +159,9 @@ $btn_color: #a3bed2;
     height: 25px;
     line-height: 25px;
     text-align: center;
-    transition: .3;
-    &:hover{
-        background:#b31335;
+    transition: 0.3;
+    &:hover {
+      background: #b31335;
     }
   }
 
@@ -199,5 +201,68 @@ $btn_color: #a3bed2;
     padding: 15px;
     border-radius: 5px;
     background: #fff;
+  }
+}
+
+//  星星
+html,
+body {
+  background: black;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  perspective: 1800;
+  perspective-origin: 0% 0%;
+}
+
+#space {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  width: 100%;
+  height: 100%;
+  animation: rotate 300s linear 0s infinite alternate;
+}
+
+.light {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  height: 3px;
+  width: 3px;
+  border-radius: 200px;
+  background: white;
+  box-shadow: 0px 0px 20px 1px white;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  to {
+    transform: rotateY(360deg) rotateX(360deg);
+  }
+}
+
+#scale {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  top: 80%;
+  font-family: Arial, sans-serif;
+  border-radius: 5px;
+  border: 2px solid white;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 1.1em;
+  padding: 10px 20px;
+  margin: auto;
+  width: 100px;
+  transition: ease all 0.2s;
+  cursor: pointer;
+  &:hover {
+    background: white;
+    color: black;
   }
 }

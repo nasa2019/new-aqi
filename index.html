@@ -23,7 +23,7 @@
 </head>
 
 <body>
-
+  <div id="space"></div>
 
   <!-- Use container-fluid for 100% width and set padding to 0 -->
   <main role="main" class="container-fluid p-0">
@@ -49,28 +49,28 @@
           <span>TAIWAN</span>
         </div>
 
-        <button class="ui button city_btn clk">
+        <button class="ui button city_btn clk" onClick="openDataBox(this,'.city_btn')">
           基隆市
         </button>
-        <button class="ui button city_btn">
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
           台北市
         </button>
-        <button class="ui button city_btn">
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
           新北市
         </button>
-        <button class="ui button city_btn">
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
           桃園市
         </button>
-        <button class="ui button city_btn">
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
           基隆市
         </button>
-        <button class="ui button city_btn">
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
           台北市
         </button>
-        <button class="ui button city_btn">
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
           新北市
         </button>
-        <button class="ui button city_btn">
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
           桃園市
         </button>
 
@@ -79,7 +79,7 @@
 
       <!-- 視覺化顯示 -->
       <div class="data_block">
-        <a href="javascript:;" class="close_btn">
+        <a href="javascript:;" class="close_btn" onclick="closeDataBox('.data_block')">
           X
         </a>
         <!-- 內容 -->
@@ -96,10 +96,10 @@
             </p>
             <!-- 數值圖表 -->
             <div class="show_data_box">
-                <canvas id="lineChart"></canvas>
+              <canvas id="lineChart"></canvas>
             </div>
           </div>
-          
+
           <div class="data_list">
             <p class="title">
               <span>空氣污染指數</span>
@@ -126,9 +126,7 @@
   </main>
 
   <!-- JavaScript is placed at the end of the document so the page loads faster -->
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -141,4 +139,60 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
   <script src="./src/app.js"></script>
   <script src="./src/chart.js"></script>
+  <script>
+    $(function () {
+
+    });
+
+    function openDataBox(elem, class_name) {
+      $(class_name).removeClass('clk');
+      $(elem).addClass('clk');
+      $('.data_block').fadeIn();
+    }
+
+    function closeDataBox(data_box) {
+      $(data_box).fadeOut();
+    }
+  </script>
 </body>
+
+<script>
+
+  var fragment = document.createDocumentFragment()
+  for(var i =0; i < 500; i++) {
+    var lightEle = document.createElement('div')
+    lightEle.setAttribute('class', 'light')
+    fragment.appendChild(lightEle)
+  }
+  document.getElementById('space').appendChild(fragment)
+  var random, Y, X, Z, RY, RX, RZ, S, pos;
+  var concentration = 2000;
+
+  function newX() {
+    return Math.floor((Math.random() * concentration) + 1);
+  }
+  function newY() {
+    return Math.floor((Math.random() * concentration) + 1);
+  }
+  function newZ() {
+    return Math.floor((Math.random() * concentration) + 1);
+  }
+  function newAngle() {
+    return Math.floor((Math.random() * 360) + 1);
+  }
+
+  $(".light").each(function () {
+    Y = 'translateY(' + newY() + 'px) ';
+    X = 'translateX(' + newX() + 'px) ';
+    Z = 'translateZ(' + newZ() + 'px) ';
+    RY = 'rotateY(' + newAngle() + 'deg)';
+    RX = 'rotateX(' + newAngle() + 'deg)';
+    RZ = 'rotateZ(' + newAngle() + 'deg)';
+    S = 'scale(' + Math.floor((Math.random() * 20) + 1) + ')';
+    $(this).css('transform', Y + X + Z + RY + RX + RZ);
+  });
+
+  $('#scale').click(function (event) {
+    $('#space').css('transfom', 'scale(5)');
+  });
+</script>
