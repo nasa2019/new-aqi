@@ -15,152 +15,111 @@
 
     <!-- Custom styles and overrides -->
     <link href="./css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
-
-      <!--Branding icon and text-->
-      <a class="navbar-brand" href="https://worldwind.arc.nasa.gov/web target=_blank">
-                <img src="images/nasa-logo_32.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                WorldWindJS
-            </a>
-
-      <!--Hamburger menu displayed on small screens/windows-->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-      <!--Main menu content-->
-      <div class="collapse navbar-collapse" id="main-menu">
-        <ul class="navbar-nav mr-auto">
-          <!--Layers-->
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#layers" role="button">
-                            <span class="fas fa-list" aria-hidden="true"></span>
-                            <span class="d-md-none d-lg-inline" aria-hidden="true">Layers</span>
-                        </a>
-          </li>
-          <!--Markers-->
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#markers" role="button">
-                            <span class="fas fa-map-marker-alt" aria-hidden="true"></span>
-                            <span class="d-md-none d-lg-inline" aria-hidden="true">Markers</span>
-                        </a>
-          </li>
-          <!--Settings-->
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#settings" role="button">
-                            <span class="fas fa-cog" aria-hidden="true"></span>
-                            <span class="d-md-none d-lg-inline" aria-hidden="true">Settings</span>
-                        </a>
-          </li>
-        </ul>
-        <!--Search Box-->
-        <div class="form-inline">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" data-toggle="modal" data-target="#preview-dialog">
-                        <span class="fas fa-search" aria-hidden="true"></span>
-                    </button>
-        </div>
-      </div>
-    </nav>
+  
     <!-- Use container-fluid for 100% width and set padding to 0 -->
     <main role="main" class="container-fluid p-0">
-      <!-- Globe -->
-      <div id="globe" class="globe">
-        <!--.d-block ensures the size is correct (prevents a scrollbar from appearing)-->
-        <canvas
-          id="globe-canvas-air"
-          class="d-block"
-          style="width: 300px;height: 300px"
-        >
-           Try Chrome or FireFox.
-        </canvas>
-        <canvas
-          id="globe-canvas-air"
-          class="d-block"
-          style="width: 300px;height: 300px"
-        >
-         Try Chrome or FireFox.
-        </canvas>
-      </div>
+      <div class="space_block">
+          <!-- Globe -->
+          <div id="globe" class="globe">
+            <!--.d-block ensures the size is correct (prevents a scrollbar from appearing)-->
+            <canvas
+              id="globe-canvas-air"
+              class="d-block"
+              style="width: 500px;height: 500px"
+            >
+              Try Chrome or FireFox.
+            </canvas>
+            <canvas
+              id="globe-canvas-air"
+              class="d-block"
+              style="width: 500px;height: 500px"
+            >
+            Try Chrome or FireFox.
+            </canvas>
+          </div>
 
-      <!--Panels-->
-      <div class="globe-overlay noninteractive w-100">
-        <div class="card-columns">
-          <!--Layers-->
-          <div class="collapse" id="layers">
-            <div class="card globe-card interactive">
-              <div class="card-header">
-                <h5 class="card-title">
-                  <span class="fas fa-list" aria-hidden="true"></span> Layers
-                  <button type="button" class="close pull-right" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button></h5>
+        <!--Panels-->
+        <div class="globe-overlay noninteractive w-100">
+          <div class="card-columns">
+            <!--Layers-->
+            <div class="collapse" id="layers">
+              <div class="card globe-card interactive">
+                <div class="card-header">
+                  <h5 class="card-title">
+                    <span class="fas fa-list" aria-hidden="true"></span> Layers
+                    <button type="button" class="close pull-right" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                      </button></h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Layer list goes here.</p>
+                </div>
               </div>
-              <div class="card-body">
-                <p class="card-text">Layer list goes here.</p>
+            </div>
+            <!--Markers-->
+            <div class="collapse" id="markers">
+              <div class="card globe-card interactive">
+                <div class="card-header">
+                  <h5 class="card-title">
+                    <span class="fas fa-map-marker-alt" aria-hidden="true"></span> Markers
+                    <button type="button" class="close pull-right" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                      </button></h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Marker list goes here.</p>
+                </div>
+              </div>
+            </div>
+            <!--Settings-->
+            <div class="collapse" id="settings">
+              <div class="card globe-card interactive">
+                <div class="card-header">
+                  <h5 class="card-title">
+                    <span class="fas fa-cog" aria-hidden="true"></span> Settings
+                    <button type="button" class="close pull-right" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                      </button></h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Settings go here.</p>
+                </div>
               </div>
             </div>
           </div>
-          <!--Markers-->
-          <div class="collapse" id="markers">
-            <div class="card globe-card interactive">
-              <div class="card-header">
-                <h5 class="card-title">
-                  <span class="fas fa-map-marker-alt" aria-hidden="true"></span> Markers
-                  <button type="button" class="close pull-right" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button></h5>
-              </div>
-              <div class="card-body">
-                <p class="card-text">Marker list goes here.</p>
-              </div>
-            </div>
-          </div>
-          <!--Settings-->
-          <div class="collapse" id="settings">
-            <div class="card globe-card interactive">
-              <div class="card-header">
-                <h5 class="card-title">
-                  <span class="fas fa-cog" aria-hidden="true"></span> Settings
-                  <button type="button" class="close pull-right" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button></h5>
-              </div>
-              <div class="card-body">
-                <p class="card-text">Settings go here.</p>
+        </div>
+        <!--Search Preview Dialog-->
+        <div id="preview">
+          <div id="preview-dialog" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Search Results</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Search result go here
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Go to</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!--Search Preview Dialog-->
-      <div id="preview">
-        <div id="preview-dialog" class="modal" tabindex="-1" role="dialog">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">Search Results</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-              </div>
-              <div class="modal-body">
-                <p>
-                  Search result go here
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Go to</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  
+
     </main>
 
     <!-- JavaScript is placed at the end of the document so the page loads faster -->
