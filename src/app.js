@@ -89,4 +89,31 @@ $(document).ready(function() {
   $('.collapse .close').on('click', function() {
     $(this).closest('.collapse').collapse('hide');
   });
+
+  $('#layer-btn-uv-ray').on('click', function(){
+    console.log('clicked')
+    var uvRayPromise = new WorldWind.KmlFile('src/data/uv_ray.kml', [new WorldWind.KmlTreeVisibility('tree-controls', this.wwd)]);
+    console.log('requested', uvRayPromise)
+    uvRayPromise.then(function (kmlFile) {
+      console.log('got', kmlFile)
+      var renderableLayer = new WorldWind.RenderableLayer("Surface Shapes");
+      // renderableLayer.currentTimeInterval = [
+      //     new Date("Mon Aug 09 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf(),
+      //     new Date("Mon Aug 11 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf()
+      // ];
+      renderableLayer.addRenderable(kmlFile);
+
+      this.wwd.addLayer(renderableLayer);
+      this.wwd.redraw();
+  })
+
+  });
+
+  $('#layer-btn-2').on('click', function(){
+    alert('hello btn 2')
+  });
+
+  $('#layer-btn-3').on('click', function(){
+    alert('hello btn 3')
+  });
 });

@@ -1,0 +1,1995 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="下水道水位站" id="下水道水位站">
+	<SimpleField name="ST_NO" type="string"></SimpleField>
+	<SimpleField name="DISTRICT" type="string"></SimpleField>
+	<SimpleField name="VILLAGE" type="string"></SimpleField>
+	<SimpleField name="REGION" type="string"></SimpleField>
+	<SimpleField name="ST_NAME" type="string"></SimpleField>
+	<SimpleField name="ST_ADDRESS" type="string"></SimpleField>
+	<SimpleField name="X_97" type="float"></SimpleField>
+	<SimpleField name="Y_97" type="float"></SimpleField>
+</Schema>
+<Folder><name>下水道水位站</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0086</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">集英里</SimpleData>
+		<SimpleData name="REGION">圓山、大龍、六館抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">圓山3</SimpleData>
+		<SimpleData name="ST_ADDRESS">民族西路與撫順街41巷口(大同大學西北角)</SimpleData>
+		<SimpleData name="X_97">302454.78459201</SimpleData>
+		<SimpleData name="Y_97">2773456.48949884</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51994672819997,25.068417491837966</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0087</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">聚葉里</SimpleData>
+		<SimpleData name="REGION">圓山、大龍、六館抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">圓山4</SimpleData>
+		<SimpleData name="ST_ADDRESS">錦州街與13巷口</SimpleData>
+		<SimpleData name="X_97">302895.47527363</SimpleData>
+		<SimpleData name="Y_97">2772566.83125759</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52428065116348,25.060370362095977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0088</SimpleData>
+		<SimpleData name="DISTRICT">大同區</SimpleData>
+		<SimpleData name="VILLAGE">雙連里</SimpleData>
+		<SimpleData name="REGION">圓山、大龍、六館抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">圓山5</SimpleData>
+		<SimpleData name="ST_ADDRESS">寧夏路108號前</SimpleData>
+		<SimpleData name="X_97">301934.06829276</SimpleData>
+		<SimpleData name="Y_97">2772466.06161156</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51474804157567,25.059493955336059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0089</SimpleData>
+		<SimpleData name="DISTRICT">松山區</SimpleData>
+		<SimpleData name="VILLAGE">富錦里</SimpleData>
+		<SimpleData name="REGION">撫遠抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">撫遠1</SimpleData>
+		<SimpleData name="ST_ADDRESS">三民路與136巷口</SimpleData>
+		<SimpleData name="X_97">306837.88245349</SimpleData>
+		<SimpleData name="Y_97">2772592.70506179</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56335598156373,25.060460854148609</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0090</SimpleData>
+		<SimpleData name="DISTRICT">松山區</SimpleData>
+		<SimpleData name="VILLAGE">新益里</SimpleData>
+		<SimpleData name="REGION">撫遠抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">撫遠2</SimpleData>
+		<SimpleData name="ST_ADDRESS">撫遠街261巷</SimpleData>
+		<SimpleData name="X_97">307267.27069159</SimpleData>
+		<SimpleData name="Y_97">2772720.30670502</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56761706134309,25.061596618337564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0091</SimpleData>
+		<SimpleData name="DISTRICT">萬華區</SimpleData>
+		<SimpleData name="VILLAGE">忠貞里</SimpleData>
+		<SimpleData name="REGION">雙園抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">雙園2</SimpleData>
+		<SimpleData name="ST_ADDRESS">青年路65號(青年公園西北角)</SimpleData>
+		<SimpleData name="X_97">300832.09100000</SimpleData>
+		<SimpleData name="Y_97">2768661.74020000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50368574498395,25.025186071479027</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0092</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">永倫里</SimpleData>
+		<SimpleData name="REGION">社子抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">社子2</SimpleData>
+		<SimpleData name="ST_ADDRESS">通河西街2段與社中街384巷口</SimpleData>
+		<SimpleData name="X_97">300606.99640000</SimpleData>
+		<SimpleData name="Y_97">2776251.60660000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50173433693459,25.093714644667685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0093</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">名山里</SimpleData>
+		<SimpleData name="REGION">芝山抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">芝山1</SimpleData>
+		<SimpleData name="ST_ADDRESS">雨聲街市立陽明醫院前</SimpleData>
+		<SimpleData name="X_97">303542.13060000</SimpleData>
+		<SimpleData name="Y_97">2777476.18260000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53088097699272,25.104668696064682</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0095</SimpleData>
+		<SimpleData name="DISTRICT">松山區</SimpleData>
+		<SimpleData name="VILLAGE">莊敬里</SimpleData>
+		<SimpleData name="REGION">濱江抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">濱江1</SimpleData>
+		<SimpleData name="ST_ADDRESS">濱江街接撫遠街(濱江街1046號)往東約400公尺處</SimpleData>
+		<SimpleData name="X_97">306876.02944628</SimpleData>
+		<SimpleData name="Y_97">2773705.53418288</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56378004598054,25.070505889469278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0096</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">劍潭里</SimpleData>
+		<SimpleData name="REGION">大直抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">大直2</SimpleData>
+		<SimpleData name="ST_ADDRESS">明水路大直橋下往西約100公尺處</SimpleData>
+		<SimpleData name="X_97">304800.42612854</SimpleData>
+		<SimpleData name="Y_97">2774466.33787018</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54323680478316,25.077451043279147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0097</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">景行里</SimpleData>
+		<SimpleData name="REGION">景福街排水幹線系統</SimpleData>
+		<SimpleData name="ST_NAME">景福1</SimpleData>
+		<SimpleData name="ST_ADDRESS">羅斯福路6段與車前路口</SimpleData>
+		<SimpleData name="X_97">304549.40540138</SimpleData>
+		<SimpleData name="Y_97">2764944.43989438</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54037181509149,24.991497032508882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0098</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">後港里</SimpleData>
+		<SimpleData name="REGION">劍潭抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">劍潭1</SimpleData>
+		<SimpleData name="ST_ADDRESS">承德路4段302號前</SimpleData>
+		<SimpleData name="X_97">302336.59391382</SimpleData>
+		<SimpleData name="Y_97">2775816.40169078</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51886501712234,25.089726676260817</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0099</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">葫東里</SimpleData>
+		<SimpleData name="REGION">迪化抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">迪化2</SimpleData>
+		<SimpleData name="ST_ADDRESS">延平北路5段241號前</SimpleData>
+		<SimpleData name="X_97">301428.78596012</SimpleData>
+		<SimpleData name="Y_97">2775208.01667437</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50984253631793,25.084265425649924</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0101</SimpleData>
+		<SimpleData name="DISTRICT">中正區</SimpleData>
+		<SimpleData name="VILLAGE">光復里</SimpleData>
+		<SimpleData name="REGION">忠孝、貴陽、成都抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">忠孝1</SimpleData>
+		<SimpleData name="ST_ADDRESS">忠孝西路1段與重慶南路口西北角</SimpleData>
+		<SimpleData name="X_97">301787.64953300</SimpleData>
+		<SimpleData name="Y_97">2771120.50701076</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51324625861757,25.04735137349277</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0102</SimpleData>
+		<SimpleData name="DISTRICT">中正區</SimpleData>
+		<SimpleData name="VILLAGE">黎明里</SimpleData>
+		<SimpleData name="REGION">忠孝、貴陽、成都抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">忠孝2</SimpleData>
+		<SimpleData name="ST_ADDRESS">青島西路與公園路口</SimpleData>
+		<SimpleData name="X_97">302189.14639988</SimpleData>
+		<SimpleData name="Y_97">2770865.07555158</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51721552845675,25.045031549083301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0103</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">德行里</SimpleData>
+		<SimpleData name="REGION">文昌抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">文昌1</SimpleData>
+		<SimpleData name="ST_ADDRESS">中山北路5段829巷與福國路15巷口</SimpleData>
+		<SimpleData name="X_97">302915.64459122</SimpleData>
+		<SimpleData name="Y_97">2777124.84284815</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5246559161355,25.101518948472126</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0104</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">行政里</SimpleData>
+		<SimpleData name="REGION">建國抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">建國8</SimpleData>
+		<SimpleData name="ST_ADDRESS">農安街227巷3弄(農安公園西南角)</SimpleData>
+		<SimpleData name="X_97">303976.08080000</SimpleData>
+		<SimpleData name="Y_97">2773103.69570000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53501190223551,25.065178927728635</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0105</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">新福里</SimpleData>
+		<SimpleData name="REGION">建國抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">建國9</SimpleData>
+		<SimpleData name="ST_ADDRESS">松江路402巷與7弄口</SimpleData>
+		<SimpleData name="X_97">303737.71320000</SimpleData>
+		<SimpleData name="Y_97">2772957.06200000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5326435549339,25.063863625955005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0106</SimpleData>
+		<SimpleData name="DISTRICT">大安區</SimpleData>
+		<SimpleData name="VILLAGE">仁愛里</SimpleData>
+		<SimpleData name="REGION">建國抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">建國10</SimpleData>
+		<SimpleData name="ST_ADDRESS">忠孝東路3段大安路口</SimpleData>
+		<SimpleData name="X_97">305106.74290000</SimpleData>
+		<SimpleData name="Y_97">2770479.06760000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54611364495696,25.041443227967907</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0107</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">新富里</SimpleData>
+		<SimpleData name="REGION">大坑溪、四分溪下游系統</SimpleData>
+		<SimpleData name="ST_NAME">大坑1</SimpleData>
+		<SimpleData name="ST_ADDRESS">研究院路一段119號</SimpleData>
+		<SimpleData name="X_97">312144.05800000</SimpleData>
+		<SimpleData name="Y_97">2771611.81550000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61590226728563,25.051396763960859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0108</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">西康里</SimpleData>
+		<SimpleData name="REGION">北安抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">北安1</SimpleData>
+		<SimpleData name="ST_ADDRESS">內湖路1段與文湖街路口</SimpleData>
+		<SimpleData name="X_97">306459.77480000</SimpleData>
+		<SimpleData name="Y_97">2775312.71510000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.55972006723512,25.08503089812675</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0109</SimpleData>
+		<SimpleData name="DISTRICT">大安區</SimpleData>
+		<SimpleData name="VILLAGE">錦華里</SimpleData>
+		<SimpleData name="REGION">雙園抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">雙園3</SimpleData>
+		<SimpleData name="ST_ADDRESS">杭州南2段102號(華南銀行前)</SimpleData>
+		<SimpleData name="X_97">302656.18328452</SimpleData>
+		<SimpleData name="Y_97">2769043.58524397</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52177433187056,25.0285710186808</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0110</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">一德里</SimpleData>
+		<SimpleData name="REGION">關渡抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">關渡1</SimpleData>
+		<SimpleData name="ST_ADDRESS">立德路(華碩總部對面)</SimpleData>
+		<SimpleData name="X_97">297558.58134988</SimpleData>
+		<SimpleData name="Y_97">2779695.54788526</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.47163145253576,25.124905480705724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0111</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">德行里</SimpleData>
+		<SimpleData name="REGION">福林抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">福林6</SimpleData>
+		<SimpleData name="ST_ADDRESS">中山北路與德行東路口(蘭雅派出所對面)</SimpleData>
+		<SimpleData name="X_97">302920.09030000</SimpleData>
+		<SimpleData name="Y_97">2777662.06720000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52472068951457,25.106368787425428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0112</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">湖元里</SimpleData>
+		<SimpleData name="REGION">民權抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">民權1</SimpleData>
+		<SimpleData name="ST_ADDRESS">民權東路6段46號(中天電視台對面)</SimpleData>
+		<SimpleData name="X_97">308839.64411780</SimpleData>
+		<SimpleData name="Y_97">2773483.73952198</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.58323398695637,25.06842837419158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0113</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">湖元里</SimpleData>
+		<SimpleData name="REGION">民權抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">民權2</SimpleData>
+		<SimpleData name="ST_ADDRESS">新湖二路17號(家樂福對面
+)</SimpleData>
+		<SimpleData name="X_97">307974.72180000</SimpleData>
+		<SimpleData name="Y_97">2772618.11400000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.57462453790055,25.060647069568038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0115</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">臨溪里</SimpleData>
+		<SimpleData name="REGION">故宮抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">故宮2</SimpleData>
+		<SimpleData name="ST_ADDRESS">至善路2段與256巷口</SimpleData>
+		<SimpleData name="X_97">305520.49720000</SimpleData>
+		<SimpleData name="Y_97">2777012.63290000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.55047744321298,25.100412332586238</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0116</SimpleData>
+		<SimpleData name="DISTRICT">大同區</SimpleData>
+		<SimpleData name="VILLAGE">光能里</SimpleData>
+		<SimpleData name="REGION">錦州民權長春抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">錦州1</SimpleData>
+		<SimpleData name="ST_ADDRESS">承德路2段83號前
+</SimpleData>
+		<SimpleData name="X_97">302293.97485541</SimpleData>
+		<SimpleData name="Y_97">2772115.59625455</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51830185643973,25.056317567324662</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0117</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">建民里</SimpleData>
+		<SimpleData name="REGION">百齡抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">百齡3</SimpleData>
+		<SimpleData name="ST_ADDRESS">文林北路192號對面</SimpleData>
+		<SimpleData name="X_97">301975.01186421</SimpleData>
+		<SimpleData name="Y_97">2777719.81660301</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51535240284861,25.106923001091801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0118</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">新光里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成13</SimpleData>
+		<SimpleData name="ST_ADDRESS">東新街與昆陽街171巷1弄口</SimpleData>
+		<SimpleData name="X_97">309951.13131531</SimpleData>
+		<SimpleData name="Y_97">2771218.00754533</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.59415223784225,25.047930055656334</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0119</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">興旺里</SimpleData>
+		<SimpleData name="REGION">興隆路幹線系統</SimpleData>
+		<SimpleData name="ST_NAME">興隆2</SimpleData>
+		<SimpleData name="ST_ADDRESS">福興路(興隆國小旁)</SimpleData>
+		<SimpleData name="X_97">305678.94410000</SimpleData>
+		<SimpleData name="Y_97">2766178.77190000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.55161047673919,25.002599485715713</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0120</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">興光里</SimpleData>
+		<SimpleData name="REGION">興隆路幹線系統</SimpleData>
+		<SimpleData name="ST_NAME">興隆3</SimpleData>
+		<SimpleData name="ST_ADDRESS">興隆路(興德市場旁)</SimpleData>
+		<SimpleData name="X_97">306023.39240000</SimpleData>
+		<SimpleData name="Y_97">2765979.54910000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.55501471460279,25.000788218083638</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0062</SimpleData>
+		<SimpleData name="DISTRICT">大安區</SimpleData>
+		<SimpleData name="VILLAGE">龍安里</SimpleData>
+		<SimpleData name="REGION">新生抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">新生8</SimpleData>
+		<SimpleData name="ST_ADDRESS">新生南路2段70號前</SimpleData>
+		<SimpleData name="X_97">303973.64670000</SimpleData>
+		<SimpleData name="Y_97">2768877.32430000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53482223304843,25.027023623182004</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0026</SimpleData>
+		<SimpleData name="DISTRICT">信義區</SimpleData>
+		<SimpleData name="VILLAGE">松光里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成6</SimpleData>
+		<SimpleData name="ST_ADDRESS">林口街176號前</SimpleData>
+		<SimpleData name="X_97">308587.25530000</SimpleData>
+		<SimpleData name="Y_97">2770388.67010000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.58060069223087,25.040496355720283</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0027</SimpleData>
+		<SimpleData name="DISTRICT">信義區</SimpleData>
+		<SimpleData name="VILLAGE">大道里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成7</SimpleData>
+		<SimpleData name="ST_ADDRESS">中坡南路(祐德高中前)</SimpleData>
+		<SimpleData name="X_97">308922.79360000</SimpleData>
+		<SimpleData name="Y_97">2770603.66310000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.58393493751099,25.042424252708106</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0028</SimpleData>
+		<SimpleData name="DISTRICT">信義區</SimpleData>
+		<SimpleData name="VILLAGE">敦厚里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成8</SimpleData>
+		<SimpleData name="ST_ADDRESS">松隆路33號前</SimpleData>
+		<SimpleData name="X_97">307298.47710000</SimpleData>
+		<SimpleData name="Y_97">2770766.03720000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56784506733322,25.043952538533091</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0029</SimpleData>
+		<SimpleData name="DISTRICT">信義區</SimpleData>
+		<SimpleData name="VILLAGE">永吉里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成9</SimpleData>
+		<SimpleData name="ST_ADDRESS">中坡北路(中坡公園停車場出入口)</SimpleData>
+		<SimpleData name="X_97">308581.33324899</SimpleData>
+		<SimpleData name="Y_97">2771081.60193989</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.58057146151366,25.046752279552088</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0030</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">玉成里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成10</SimpleData>
+		<SimpleData name="ST_ADDRESS">中坡北路與八德路4段口(松山國小東北側)</SimpleData>
+		<SimpleData name="X_97">308505.22818113</SimpleData>
+		<SimpleData name="Y_97">2771594.91083173</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.57983904852652,25.05138930529187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0031</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">玉成里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成11</SimpleData>
+		<SimpleData name="ST_ADDRESS">南港路3段與155巷口</SimpleData>
+		<SimpleData name="X_97">308949.44860000</SimpleData>
+		<SimpleData name="Y_97">2771688.72060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.58424550393897,25.052218954780031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0032</SimpleData>
+		<SimpleData name="DISTRICT">信義區</SimpleData>
+		<SimpleData name="VILLAGE">惠安里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成12</SimpleData>
+		<SimpleData name="ST_ADDRESS">信義路5段150巷(東大排沉砂池出口)</SimpleData>
+		<SimpleData name="X_97">307805.72727256</SimpleData>
+		<SimpleData name="Y_97">2768448.68521749</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.57277472403874,25.023012444597093</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0033</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">天祿里</SimpleData>
+		<SimpleData name="REGION">福林抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">福林1</SimpleData>
+		<SimpleData name="ST_ADDRESS">忠誠路2段與70巷口</SimpleData>
+		<SimpleData name="X_97">303515.99665007</SimpleData>
+		<SimpleData name="Y_97">2778228.72656633</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53065118608092,25.11146348675047</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0034</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">天和里</SimpleData>
+		<SimpleData name="REGION">福林抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">福林2</SimpleData>
+		<SimpleData name="ST_ADDRESS">天母東路與69巷口(天和一號公園內)</SimpleData>
+		<SimpleData name="X_97">303909.93171448</SimpleData>
+		<SimpleData name="Y_97">2779013.84896527</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53458804323726,25.118537422531357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0035</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">天和里</SimpleData>
+		<SimpleData name="REGION">福林抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">福林3</SimpleData>
+		<SimpleData name="ST_ADDRESS">東山路1巷與天母東路口(天母漁店旁沉砂池)</SimpleData>
+		<SimpleData name="X_97">304357.23930000</SimpleData>
+		<SimpleData name="Y_97">2778992.50890000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53902268816816,25.118328707084753</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0036</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">東山里</SimpleData>
+		<SimpleData name="REGION">福林抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">福林4</SimpleData>
+		<SimpleData name="ST_ADDRESS">東山路3號(東山路公車站旁沉砂池)</SimpleData>
+		<SimpleData name="X_97">304422.21870121</SimpleData>
+		<SimpleData name="Y_97">2778723.32252248</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53965634893149,25.115896191922808</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0037</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">芝山里</SimpleData>
+		<SimpleData name="REGION">福林抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">福林5</SimpleData>
+		<SimpleData name="ST_ADDRESS">德行東路378巷與山區調洪池交會處</SimpleData>
+		<SimpleData name="X_97">304502.22742243</SimpleData>
+		<SimpleData name="Y_97">2777949.46834515</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54041897898693,25.108907068327955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0038</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">金瑞里</SimpleData>
+		<SimpleData name="REGION">陽光港墘抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">陽港1</SimpleData>
+		<SimpleData name="ST_ADDRESS">內湖路三段348巷</SimpleData>
+		<SimpleData name="X_97">308796.76280471</SimpleData>
+		<SimpleData name="Y_97">2775923.61308843</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.58291324673273,25.090456775181412</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0039</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">紫陽里</SimpleData>
+		<SimpleData name="REGION">陽光港墘抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">陽港2</SimpleData>
+		<SimpleData name="ST_ADDRESS">陽光街55號前</SimpleData>
+		<SimpleData name="X_97">309205.66095806</SimpleData>
+		<SimpleData name="Y_97">2774404.25452234</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.58690149889827,25.076724320390209</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0041</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">瑞光里</SimpleData>
+		<SimpleData name="REGION">陽光港墘抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">陽港4</SimpleData>
+		<SimpleData name="ST_ADDRESS">港墘路222號前</SimpleData>
+		<SimpleData name="X_97">307871.12758558</SimpleData>
+		<SimpleData name="Y_97">2774231.45824932</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.57366562556315,25.075216061997413</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0040</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">港墘里</SimpleData>
+		<SimpleData name="REGION">陽光港墘抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">陽港3</SimpleData>
+		<SimpleData name="ST_ADDRESS">陽光街248號前</SimpleData>
+		<SimpleData name="X_97">308310.55264373</SimpleData>
+		<SimpleData name="Y_97">2774028.18247697</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.57801277449462,25.073364024747665</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0042</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">大佳里</SimpleData>
+		<SimpleData name="REGION">中山抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">中山1</SimpleData>
+		<SimpleData name="ST_ADDRESS">民族東路115號(中嶽殿前)</SimpleData>
+		<SimpleData name="X_97">304308.38453712</SimpleData>
+		<SimpleData name="Y_97">2773443.37350818</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53831899073468,25.068233600838255</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0043</SimpleData>
+		<SimpleData name="DISTRICT">松山區</SimpleData>
+		<SimpleData name="VILLAGE">松基里</SimpleData>
+		<SimpleData name="REGION">中山抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">中山2</SimpleData>
+		<SimpleData name="ST_ADDRESS">敦化北路166號前(中泰賓館)</SimpleData>
+		<SimpleData name="X_97">305364.00341101</SimpleData>
+		<SimpleData name="Y_97">2772132.54923093</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54872947538018,25.056361314894758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0044</SimpleData>
+		<SimpleData name="DISTRICT">松山區</SimpleData>
+		<SimpleData name="VILLAGE">中華里</SimpleData>
+		<SimpleData name="REGION">中山抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">中山3</SimpleData>
+		<SimpleData name="ST_ADDRESS">敦化北路155巷76號(北市圖啟明分館前)</SimpleData>
+		<SimpleData name="X_97">305632.89067837</SimpleData>
+		<SimpleData name="Y_97">2771904.48308602</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.55138518939324,25.054292487437859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0046</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">力行里</SimpleData>
+		<SimpleData name="REGION">中山抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">中山5</SimpleData>
+		<SimpleData name="ST_ADDRESS">復興北路1號前</SimpleData>
+		<SimpleData name="X_97">304901.23591114</SimpleData>
+		<SimpleData name="Y_97">2771225.17210773</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54410684599888,25.048186470647931</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0047</SimpleData>
+		<SimpleData name="DISTRICT">大安區</SimpleData>
+		<SimpleData name="VILLAGE">仁愛里</SimpleData>
+		<SimpleData name="REGION">中山抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">中山6</SimpleData>
+		<SimpleData name="ST_ADDRESS">敦化南路1段212號前</SimpleData>
+		<SimpleData name="X_97">305353.39771218</SimpleData>
+		<SimpleData name="Y_97">2770454.26808632</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54855693604779,25.041210335863148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0048</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">行孝里</SimpleData>
+		<SimpleData name="REGION">建國抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">建國1</SimpleData>
+		<SimpleData name="ST_ADDRESS">民族東路240號前</SimpleData>
+		<SimpleData name="X_97">303702.64117269</SimpleData>
+		<SimpleData name="Y_97">2773440.15731532</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5323147834095,25.068226214083698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0049</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">新生里</SimpleData>
+		<SimpleData name="REGION">建國抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">建國2</SimpleData>
+		<SimpleData name="ST_ADDRESS">吉林路245號前</SimpleData>
+		<SimpleData name="X_97">303509.06791831</SimpleData>
+		<SimpleData name="Y_97">2772660.25878405</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53036578392926,25.061192222958265</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0050</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">朱園里</SimpleData>
+		<SimpleData name="REGION">建國抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">建國3</SimpleData>
+		<SimpleData name="ST_ADDRESS">建國北路1段與138巷口(建國高架道路下方)</SimpleData>
+		<SimpleData name="X_97">304141.89913285</SimpleData>
+		<SimpleData name="Y_97">2771533.06212623</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53659368807823,25.050993451037986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0051</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">力行里</SimpleData>
+		<SimpleData name="REGION">建國抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">建國4</SimpleData>
+		<SimpleData name="ST_ADDRESS">遼寧街63號前</SimpleData>
+		<SimpleData name="X_97">304692.84529550</SimpleData>
+		<SimpleData name="Y_97">2771424.37890083</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54204954093821,25.049992443076658</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0052</SimpleData>
+		<SimpleData name="DISTRICT">大安區</SimpleData>
+		<SimpleData name="VILLAGE">昌隆里</SimpleData>
+		<SimpleData name="REGION">建國抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">建國5</SimpleData>
+		<SimpleData name="ST_ADDRESS">建國南路1段65巷(?公圳公園一角)</SimpleData>
+		<SimpleData name="X_97">304264.70592466</SimpleData>
+		<SimpleData name="Y_97">2770753.10490467</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53778005157596,25.043947653666823</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0053</SimpleData>
+		<SimpleData name="DISTRICT">大安區</SimpleData>
+		<SimpleData name="VILLAGE">仁愛里</SimpleData>
+		<SimpleData name="REGION">建國抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">建國6</SimpleData>
+		<SimpleData name="ST_ADDRESS">敦化南路1段236巷(龍門廣場)</SimpleData>
+		<SimpleData name="X_97">305307.02896381</SimpleData>
+		<SimpleData name="Y_97">2770422.82359001</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5480961726208,25.0409281532798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0054</SimpleData>
+		<SimpleData name="DISTRICT">大安區</SimpleData>
+		<SimpleData name="VILLAGE">德安里</SimpleData>
+		<SimpleData name="REGION">建國抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">建國7</SimpleData>
+		<SimpleData name="ST_ADDRESS">東豐街36號前</SimpleData>
+		<SimpleData name="X_97">305107.20517537</SimpleData>
+		<SimpleData name="Y_97">2769876.82408922</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54609415077138,25.036006202644931</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0055</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">中山里</SimpleData>
+		<SimpleData name="REGION">新生抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">新生1</SimpleData>
+		<SimpleData name="ST_ADDRESS">民生東路一段25-10號</SimpleData>
+		<SimpleData name="X_97">302953.50111461</SimpleData>
+		<SimpleData name="Y_97">2772317.58707136</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52484617819064,25.058118171409777</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0056</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">康樂里</SimpleData>
+		<SimpleData name="REGION">新生抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">新生2</SimpleData>
+		<SimpleData name="ST_ADDRESS">長春路27號中華電信旁</SimpleData>
+		<SimpleData name="X_97">303008.66810804</SimpleData>
+		<SimpleData name="Y_97">2771968.97373455</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52537952690801,25.054968980313845</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0059</SimpleData>
+		<SimpleData name="DISTRICT">中正區</SimpleData>
+		<SimpleData name="VILLAGE">幸福里</SimpleData>
+		<SimpleData name="REGION">新生抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">新生5</SimpleData>
+		<SimpleData name="ST_ADDRESS">青島東路15號斜對面(成功高中停車場前)</SimpleData>
+		<SimpleData name="X_97">302803.92270000</SimpleData>
+		<SimpleData name="Y_97">2770702.26670000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52330177235157,25.043540383579856</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0060</SimpleData>
+		<SimpleData name="DISTRICT">大安區</SimpleData>
+		<SimpleData name="VILLAGE">昌隆里</SimpleData>
+		<SimpleData name="REGION">新生抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">新生6</SimpleData>
+		<SimpleData name="ST_ADDRESS">八德路2段10巷45號</SimpleData>
+		<SimpleData name="X_97">304114.70732694</SimpleData>
+		<SimpleData name="Y_97">2770733.20943017</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53629278921939,25.043773411856566</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0001</SimpleData>
+		<SimpleData name="DISTRICT">中正區</SimpleData>
+		<SimpleData name="VILLAGE">河堤里</SimpleData>
+		<SimpleData name="REGION">雙園抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">A1</SimpleData>
+		<SimpleData name="ST_ADDRESS">汀州路178巷及201巷口</SimpleData>
+		<SimpleData name="X_97">302698.27481479</SimpleData>
+		<SimpleData name="Y_97">2768509.73965959</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52217101217809,25.023750009783111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0003</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">西康里</SimpleData>
+		<SimpleData name="ST_NAME">A3</SimpleData>
+		<SimpleData name="ST_ADDRESS">文湖街21巷68弄(九華公園旁沉砂池)</SimpleData>
+		<SimpleData name="X_97">306592.65944261</SimpleData>
+		<SimpleData name="Y_97">2775699.58773059</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56105330703112,25.088518548677449</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0004</SimpleData>
+		<SimpleData name="DISTRICT">中正區</SimpleData>
+		<SimpleData name="VILLAGE">南福里</SimpleData>
+		<SimpleData name="REGION">雙園抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">B1</SimpleData>
+		<SimpleData name="ST_ADDRESS">和平西路一段、牯嶺街60巷口</SimpleData>
+		<SimpleData name="X_97">302180.82604816</SimpleData>
+		<SimpleData name="Y_97">2768878.92050312</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51705790158134,25.027100888781771</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0006</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">大湖里</SimpleData>
+		<SimpleData name="REGION">大湖抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">大湖1</SimpleData>
+		<SimpleData name="ST_ADDRESS">大溝溪生態治水園區入口</SimpleData>
+		<SimpleData name="X_97">310376.21830000</SimpleData>
+		<SimpleData name="Y_97">2775731.10640000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.59856290577989,25.088656523283657</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0007</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">秀湖里</SimpleData>
+		<SimpleData name="REGION">大湖抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">大湖2</SimpleData>
+		<SimpleData name="ST_ADDRESS">大湖公園重力閘門出口</SimpleData>
+		<SimpleData name="X_97">311237.71621739</SimpleData>
+		<SimpleData name="Y_97">2774710.73681986</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.60705788367932,25.0794101612302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0008</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">湖濱里</SimpleData>
+		<SimpleData name="REGION">陽光港乾抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">碧湖1</SimpleData>
+		<SimpleData name="ST_ADDRESS">碧湖公園閘門溢流口</SimpleData>
+		<SimpleData name="X_97">308866.31671896</SimpleData>
+		<SimpleData name="Y_97">2774790.80610377</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.58355428373379,25.080227299906408</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0009</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">成福里</SimpleData>
+		<SimpleData name="REGION">南港抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">南港3</SimpleData>
+		<SimpleData name="ST_ADDRESS">南港公園人工湖閘門口</SimpleData>
+		<SimpleData name="X_97">309806.13630000</SimpleData>
+		<SimpleData name="Y_97">2770740.48520000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.592694584802,25.043624799660851</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0010</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">樂康里</SimpleData>
+		<SimpleData name="REGION">康樂抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">康樂1</SimpleData>
+		<SimpleData name="ST_ADDRESS">康樂街東湖國中對面</SimpleData>
+		<SimpleData name="X_97">312489.40449921</SimpleData>
+		<SimpleData name="Y_97">2774030.79783317</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61943459033574,25.073220566483474</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0011</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">東湖里</SimpleData>
+		<SimpleData name="REGION">康樂抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">康樂2</SimpleData>
+		<SimpleData name="ST_ADDRESS">東湖路與119巷口(東湖國小前)</SimpleData>
+		<SimpleData name="X_97">312156.89763603</SimpleData>
+		<SimpleData name="Y_97">2773488.21803729</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61611421563333,25.068335996326262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0012</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">九如里</SimpleData>
+		<SimpleData name="REGION">大坑溪、四分溪下游系統</SimpleData>
+		<SimpleData name="ST_NAME">研究院1</SimpleData>
+		<SimpleData name="ST_ADDRESS">四分溪進入中央研究院處</SimpleData>
+		<SimpleData name="X_97">312152.78950000</SimpleData>
+		<SimpleData name="Y_97">2770119.35250000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61592148870768,25.037922741084341</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0013</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">三重里</SimpleData>
+		<SimpleData name="REGION">南港抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">南港1</SimpleData>
+		<SimpleData name="ST_ADDRESS">三重路園區街口往北20公尺處</SimpleData>
+		<SimpleData name="X_97">311969.72434516</SimpleData>
+		<SimpleData name="Y_97">2772501.58395387</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61421458017041,25.059436564446976</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0014</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">三重里</SimpleData>
+		<SimpleData name="REGION">南港抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">南港2</SimpleData>
+		<SimpleData name="ST_ADDRESS">松河街660號(環東大道下方)</SimpleData>
+		<SimpleData name="X_97">311577.31980000</SimpleData>
+		<SimpleData name="Y_97">2772610.31180000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61033028905251,25.060434172080591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0015</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">南港里</SimpleData>
+		<SimpleData name="REGION">成功抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">成功1</SimpleData>
+		<SimpleData name="ST_ADDRESS">南港路和興華路一帶</SimpleData>
+		<SimpleData name="X_97">311160.30820000</SimpleData>
+		<SimpleData name="Y_97">2771964.78760000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.60616854789082,25.054623434859955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0016</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">新光里</SimpleData>
+		<SimpleData name="REGION">成功抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">成功2</SimpleData>
+		<SimpleData name="ST_ADDRESS">忠孝東路7段一帶(南港機廠公車站旁)</SimpleData>
+		<SimpleData name="X_97">310844.32360000</SimpleData>
+		<SimpleData name="Y_97">2771633.47100000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.60302228188468,25.051645117758955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0017</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">順興里</SimpleData>
+		<SimpleData name="REGION">木新抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">木新1</SimpleData>
+		<SimpleData name="ST_ADDRESS">木新路2段與218巷口</SimpleData>
+		<SimpleData name="X_97">307290.68629176</SimpleData>
+		<SimpleData name="Y_97">2764078.98244450</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56749032015142,24.983582632045206</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0018</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">明興里</SimpleData>
+		<SimpleData name="REGION">中港抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">中港1</SimpleData>
+		<SimpleData name="ST_ADDRESS">木柵路2段139號</SimpleData>
+		<SimpleData name="X_97">306780.96870000</SimpleData>
+		<SimpleData name="Y_97">2764676.24460000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.562466060338,24.988993857551726</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0019</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">華興里</SimpleData>
+		<SimpleData name="REGION">中港抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">中港2</SimpleData>
+		<SimpleData name="ST_ADDRESS">光輝路與20巷口(國家發展研究院旁)</SimpleData>
+		<SimpleData name="X_97">306034.68867157</SimpleData>
+		<SimpleData name="Y_97">2764473.75020494</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.55506555866739,24.987193501747264</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0020</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">樟林里</SimpleData>
+		<SimpleData name="REGION">中港抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">中港3</SimpleData>
+		<SimpleData name="ST_ADDRESS">光明公園調洪池出口</SimpleData>
+		<SimpleData name="X_97">305973.81940000</SimpleData>
+		<SimpleData name="Y_97">2764410.11290000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.55446004842763,24.986621233462923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0022</SimpleData>
+		<SimpleData name="DISTRICT">信義區</SimpleData>
+		<SimpleData name="VILLAGE">三犁里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成2</SimpleData>
+		<SimpleData name="ST_ADDRESS">松仁路與信義路5段150巷305弄口</SimpleData>
+		<SimpleData name="X_97">307369.59850000</SimpleData>
+		<SimpleData name="Y_97">2768902.11720000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56847231685151,25.027122572503313</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0023</SimpleData>
+		<SimpleData name="DISTRICT">信義區</SimpleData>
+		<SimpleData name="VILLAGE">景聯里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成3</SimpleData>
+		<SimpleData name="ST_ADDRESS">基隆路2段71號</SimpleData>
+		<SimpleData name="X_97">306331.69175078</SimpleData>
+		<SimpleData name="Y_97">2769281.20574997</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.55820362534635,25.030583927862377</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0024</SimpleData>
+		<SimpleData name="DISTRICT">信義區</SimpleData>
+		<SimpleData name="VILLAGE">新仁里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成4</SimpleData>
+		<SimpleData name="ST_ADDRESS">基隆路1段與172巷口</SimpleData>
+		<SimpleData name="X_97">307040.76430963</SimpleData>
+		<SimpleData name="Y_97">2770651.19725336</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56528640162001,25.042925515598188</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0025</SimpleData>
+		<SimpleData name="DISTRICT">信義區</SimpleData>
+		<SimpleData name="VILLAGE">三張里</SimpleData>
+		<SimpleData name="REGION">玉成抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">玉成5</SimpleData>
+		<SimpleData name="ST_ADDRESS">松廉路與松仁路口往北20公尺處(信義區行政中心公車站旁)</SimpleData>
+		<SimpleData name="X_97">307346.66010000</SimpleData>
+		<SimpleData name="Y_97">2769720.94660000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56827907944431,25.034515750882079</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0034</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">奇岩里</SimpleData>
+		<SimpleData name="ST_NAME">奇岩2</SimpleData>
+		<SimpleData name="ST_ADDRESS">公館路231巷口</SimpleData>
+		<SimpleData name="X_97">301229.28700000</SimpleData>
+		<SimpleData name="Y_97">2779882.76710000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50803920055112,25.126475378281516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0035</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">集英里</SimpleData>
+		<SimpleData name="ST_NAME">圓山6</SimpleData>
+		<SimpleData name="ST_ADDRESS">錦西街與天祥路口</SimpleData>
+		<SimpleData name="X_97">302555.38780643</SimpleData>
+		<SimpleData name="Y_97">2772560.30483188</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52090968948202,25.060323304071673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0033</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">西康里</SimpleData>
+		<SimpleData name="ST_NAME">北安3</SimpleData>
+		<SimpleData name="ST_ADDRESS">文湖街21巷98弄交接處</SimpleData>
+		<SimpleData name="X_97">306449.34461431</SimpleData>
+		<SimpleData name="Y_97">2775906.00353398</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.55964102901432,25.090387403243014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0031</SimpleData>
+		<SimpleData name="DISTRICT">萬華區</SimpleData>
+		<SimpleData name="VILLAGE">壽德里</SimpleData>
+		<SimpleData name="ST_NAME">雙園4</SimpleData>
+		<SimpleData name="ST_ADDRESS">萬大路277巷14弄</SimpleData>
+		<SimpleData name="X_97">300563.33264115</SimpleData>
+		<SimpleData name="Y_97">2768689.06171861</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50102375031753,25.025441729616627</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0100</SimpleData>
+		<SimpleData name="DISTRICT">萬華區</SimpleData>
+		<SimpleData name="VILLAGE">新起里</SimpleData>
+		<SimpleData name="REGION">忠孝、貴陽、成都抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">貴陽1</SimpleData>
+		<SimpleData name="ST_ADDRESS">貴陽街2段16號前</SimpleData>
+		<SimpleData name="X_97">301089.14010000</SimpleData>
+		<SimpleData name="Y_97">2770239.17220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50629115995665,25.039418459079226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0026</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">樟腳里</SimpleData>
+		<SimpleData name="ST_NAME">木新9A</SimpleData>
+		<SimpleData name="ST_ADDRESS">恆光街30巷13號旁閘門</SimpleData>
+		<SimpleData name="X_97">307180.51880753</SimpleData>
+		<SimpleData name="Y_97">2763863.78915326</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56639020380068,24.981644032254202</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0032</SimpleData>
+		<SimpleData name="DISTRICT">萬華區</SimpleData>
+		<SimpleData name="VILLAGE">和平里</SimpleData>
+		<SimpleData name="ST_NAME">雙園5</SimpleData>
+		<SimpleData name="ST_ADDRESS">西園路2段140巷與艋舺大道口</SimpleData>
+		<SimpleData name="X_97">299943.05324972</SimpleData>
+		<SimpleData name="Y_97">2769373.78308879</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.49490247966041,25.031643988896082</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0126</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">老泉里</SimpleData>
+		<SimpleData name="ST_NAME">老泉1</SimpleData>
+		<SimpleData name="ST_ADDRESS">老泉街26巷1號</SimpleData>
+		<SimpleData name="X_97">306586.97706495</SimpleData>
+		<SimpleData name="Y_97">2763125.94909058</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56048102776906,24.975005086153292</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0127</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">東華里</SimpleData>
+		<SimpleData name="ST_NAME">東華3</SimpleData>
+		<SimpleData name="ST_ADDRESS">致遠三路50巷</SimpleData>
+		<SimpleData name="X_97">301610.80900000</SimpleData>
+		<SimpleData name="Y_97">2779232.28020000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51179815840086,25.120589849880265</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0124</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">金湖里</SimpleData>
+		<SimpleData name="REGION">康寧抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">大湖3</SimpleData>
+		<SimpleData name="ST_ADDRESS">康寧路3段與16巷口</SimpleData>
+		<SimpleData name="X_97">311214.74441276</SimpleData>
+		<SimpleData name="Y_97">2773978.41415322</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.60679758629782,25.072799843346253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0125</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">萬芳里</SimpleData>
+		<SimpleData name="REGION">萬芳抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">萬芳1</SimpleData>
+		<SimpleData name="ST_ADDRESS">木柵路4段159巷(博嘉國小對面)</SimpleData>
+		<SimpleData name="X_97">308121.46960000</SimpleData>
+		<SimpleData name="Y_97">2766021.90480000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.57580099634677,25.001091602783514</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0185</SimpleData>
+		<SimpleData name="DISTRICT">大同區</SimpleData>
+		<SimpleData name="VILLAGE">蓬萊里</SimpleData>
+		<SimpleData name="REGION">圓山、大龍、六館抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">圓山2</SimpleData>
+		<SimpleData name="ST_ADDRESS">承德路3段41號前</SimpleData>
+		<SimpleData name="X_97">302305.24981257</SimpleData>
+		<SimpleData name="Y_97">2773026.58845045</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51844820877959,25.064541558418998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0161</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">大湖里</SimpleData>
+		<SimpleData name="REGION">大湖抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">大湖5</SimpleData>
+		<SimpleData name="ST_ADDRESS">大溝溪生態治水園區(豎井)</SimpleData>
+		<SimpleData name="X_97">310413.32780000</SimpleData>
+		<SimpleData name="Y_97">2775828.85030000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.59893508442444,25.089537449075454</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0130</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">大湖里</SimpleData>
+		<SimpleData name="REGION">大湖抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">大湖8</SimpleData>
+		<SimpleData name="ST_ADDRESS">大湖山莊街195號(大湖國小對面)</SimpleData>
+		<SimpleData name="X_97">310561.88840000</SimpleData>
+		<SimpleData name="Y_97">2775685.25890000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.60040151861999,25.088235185572412</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0132</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">大湖里</SimpleData>
+		<SimpleData name="REGION">大湖抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">大湖6</SimpleData>
+		<SimpleData name="ST_ADDRESS">大溝溪生態治水園區(天然渠道接豎井處)</SimpleData>
+		<SimpleData name="X_97">310386.62870000</SimpleData>
+		<SimpleData name="Y_97">2776014.35280000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.59867855066139,25.091213192636783</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0133</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">大湖里</SimpleData>
+		<SimpleData name="REGION">大湖抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">大湖7</SimpleData>
+		<SimpleData name="ST_ADDRESS">大溝溪生態治水園區(人工渠道接箱涵處)</SimpleData>
+		<SimpleData name="X_97">310154.29214062</SimpleData>
+		<SimpleData name="Y_97">2775932.37590363</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.59637165628754,25.090482399517679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0135</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">八仙里</SimpleData>
+		<SimpleData name="REGION">下八仙圳系統</SimpleData>
+		<SimpleData name="ST_NAME">八仙1</SimpleData>
+		<SimpleData name="ST_ADDRESS">八仙圳與大度路交口下游處</SimpleData>
+		<SimpleData name="X_97">299627.96570000</SimpleData>
+		<SimpleData name="Y_97">2779364.47860000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.49214067403344,25.121849903641731</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0001</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">九如里</SimpleData>
+		<SimpleData name="ST_NAME">四分左2閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">中華科大軍人公墓對面</SimpleData>
+		<SimpleData name="X_97">311684.81700000</SimpleData>
+		<SimpleData name="Y_97">2769719.23800000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61126628408402,25.034329727446369</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0002</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">九如里</SimpleData>
+		<SimpleData name="ST_NAME">四分右7閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">研究院路3段(凌雲五村公園旁、永思橋下游閘門)</SimpleData>
+		<SimpleData name="X_97">312014.99440000</SimpleData>
+		<SimpleData name="Y_97">2769881.23150000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.6145453181865,25.035778681960064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0003</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">中研里</SimpleData>
+		<SimpleData name="ST_NAME">四分左4閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">研究院路2段102巷(家驊橋旁閘門)</SimpleData>
+		<SimpleData name="X_97">311787.40920000</SimpleData>
+		<SimpleData name="Y_97">2770680.21130000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61232594888416,25.043001034454317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0004</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">舊莊里</SimpleData>
+		<SimpleData name="ST_NAME">大坑左2閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">舊莊街2段119巷16弄(高速公路下方閘門)</SimpleData>
+		<SimpleData name="X_97">312917.10229250</SimpleData>
+		<SimpleData name="Y_97">2770262.37548356</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.62350184876746,25.039182337490832</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0005</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">舊莊里</SimpleData>
+		<SimpleData name="ST_NAME">大坑左9閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">合順街8巷(合順橋旁閘門)</SimpleData>
+		<SimpleData name="X_97">312499.07880000</SimpleData>
+		<SimpleData name="Y_97">2770693.32930000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61937901269708,25.043090227845187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0006</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">長安里</SimpleData>
+		<SimpleData name="ST_NAME">磺港右2閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">育仁路113號對面公園後方閘門</SimpleData>
+		<SimpleData name="X_97">300451.96300000</SimpleData>
+		<SimpleData name="Y_97">2780796.74240000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50036435284319,25.13475285779932</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0007</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">奇岩里</SimpleData>
+		<SimpleData name="ST_NAME">磺港右4閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">公館路85巷橋旁</SimpleData>
+		<SimpleData name="X_97">300874.39299439</SimpleData>
+		<SimpleData name="Y_97">2780407.27659346</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50453928709116,25.131222605713099</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0008</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">清江里</SimpleData>
+		<SimpleData name="ST_NAME">磺港右14閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">崇仁路1段155巷(鎮安橋旁閘門)</SimpleData>
+		<SimpleData name="X_97">300590.26720000</SimpleData>
+		<SimpleData name="Y_97">2779570.27050000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50169073317537,25.123675781307373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0009</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">永欣里</SimpleData>
+		<SimpleData name="ST_NAME">磺溪左1閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">天母北路105巷(橋邊停車處)</SimpleData>
+		<SimpleData name="X_97">303108.38173026</SimpleData>
+		<SimpleData name="Y_97">2779574.14360809</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52666156694005,25.123624127983305</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0010</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">蘭興里</SimpleData>
+		<SimpleData name="ST_NAME">磺溪左11閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">克強路10巷9弄(蘭興1號公園旁閘門)</SimpleData>
+		<SimpleData name="X_97">302715.79526055</SimpleData>
+		<SimpleData name="Y_97">2778118.85088371</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52271263470683,25.110499725859121</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0011</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">建民里</SimpleData>
+		<SimpleData name="ST_NAME">磺溪左16閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">文林北路5巷(提外便道閘門)</SimpleData>
+		<SimpleData name="X_97">302223.64908470</SimpleData>
+		<SimpleData name="Y_97">2777051.40883841</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51779224739735,25.100880104469422</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0012</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">岩山里</SimpleData>
+		<SimpleData name="ST_NAME">雙溪右2閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">至誠路1段150號對面閘門</SimpleData>
+		<SimpleData name="X_97">303809.76602848</SimpleData>
+		<SimpleData name="Y_97">2777077.79601835</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53351894096355,25.101062593606368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0121</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">萬盛里</SimpleData>
+		<SimpleData name="REGION">興隆路幹線系統</SimpleData>
+		<SimpleData name="ST_NAME">興隆4</SimpleData>
+		<SimpleData name="ST_ADDRESS">羅斯福路5段97巷與萬盛街82巷口</SimpleData>
+		<SimpleData name="X_97">304534.38720000</SimpleData>
+		<SimpleData name="Y_97">2766485.93570000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5402838991902,25.005414168167487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0123</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">葫洲里</SimpleData>
+		<SimpleData name="REGION">康寧抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">大湖4</SimpleData>
+		<SimpleData name="ST_ADDRESS">康寧路3段與189巷口</SimpleData>
+		<SimpleData name="X_97">311742.41150000</SimpleData>
+		<SimpleData name="Y_97">2773640.23150000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.612012733935,25.069725332998726</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0013</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">德行里</SimpleData>
+		<SimpleData name="ST_NAME">雙溪右4閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">雙溪街、福國路15巷口閘門</SimpleData>
+		<SimpleData name="X_97">302898.41289146</SimpleData>
+		<SimpleData name="Y_97">2776990.69235442</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52447990534799,25.100308458129657</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0014</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">博嘉里</SimpleData>
+		<SimpleData name="ST_NAME">頭廷4閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">木柵路5段萬福橋旁閘門</SimpleData>
+		<SimpleData name="X_97">309043.70658416</SimpleData>
+		<SimpleData name="Y_97">2766238.43809637</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.58494634838293,25.003010800885598</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0015</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">樟腳里</SimpleData>
+		<SimpleData name="ST_NAME">木新9閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">恆光街30巷13號旁閘門</SimpleData>
+		<SimpleData name="X_97">307186.01021472</SimpleData>
+		<SimpleData name="Y_97">2763859.64383244</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56644442430301,24.98160640146526</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0016</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">景美里</SimpleData>
+		<SimpleData name="ST_NAME">景美1閘</SimpleData>
+		<SimpleData name="ST_ADDRESS">景美公園旁閘門</SimpleData>
+		<SimpleData name="X_97">304262.49612298</SimpleData>
+		<SimpleData name="Y_97">2765135.61617502</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53753726888445,24.993233264629204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0017</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">九如里</SimpleData>
+		<SimpleData name="ST_NAME">四分右7A</SimpleData>
+		<SimpleData name="ST_ADDRESS">研究院路3段20巷</SimpleData>
+		<SimpleData name="X_97">312039.96470000</SimpleData>
+		<SimpleData name="Y_97">2769799.07560000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.6147890565001,25.035035970016622</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0018</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">中研里</SimpleData>
+		<SimpleData name="ST_NAME">四分左4A</SimpleData>
+		<SimpleData name="ST_ADDRESS">研究院路2段102巷(家驊橋旁閘門)</SimpleData>
+		<SimpleData name="X_97">311773.66290000</SimpleData>
+		<SimpleData name="Y_97">2770680.01540000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61218971757707,25.042999827268282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0019</SimpleData>
+		<SimpleData name="DISTRICT">南港區</SimpleData>
+		<SimpleData name="VILLAGE">舊莊里</SimpleData>
+		<SimpleData name="ST_NAME">大坑左9A</SimpleData>
+		<SimpleData name="ST_ADDRESS">舊莊路1段3巷36號旁公園</SimpleData>
+		<SimpleData name="X_97">312436.62140000</SimpleData>
+		<SimpleData name="Y_97">2770663.08610000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.61875870512789,25.042819777212308</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0020</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">長安里</SimpleData>
+		<SimpleData name="ST_NAME">磺港右2A</SimpleData>
+		<SimpleData name="ST_ADDRESS">育仁路113號(對面公園後方閘門)</SimpleData>
+		<SimpleData name="X_97">300446.17370000</SimpleData>
+		<SimpleData name="Y_97">2780801.23590000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50030710367187,25.134793618409383</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0021</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">清江里</SimpleData>
+		<SimpleData name="ST_NAME">磺港右14A</SimpleData>
+		<SimpleData name="ST_ADDRESS">崇仁路1段155巷(鎮安橋旁閘門)</SimpleData>
+		<SimpleData name="X_97">300590.26720000</SimpleData>
+		<SimpleData name="Y_97">2779570.27050000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50169073317537,25.123675781307373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0022</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">蘭興里</SimpleData>
+		<SimpleData name="ST_NAME">磺溪左11A</SimpleData>
+		<SimpleData name="ST_ADDRESS">克強路10巷9弄(蘭興1號公園旁閘門)</SimpleData>
+		<SimpleData name="X_97">302727.20680000</SimpleData>
+		<SimpleData name="Y_97">2778118.00060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5228257514425,25.110491650703015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0023</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">岩山里</SimpleData>
+		<SimpleData name="ST_NAME">雙溪右2A</SimpleData>
+		<SimpleData name="ST_ADDRESS">至誠路1段150號對面閘門</SimpleData>
+		<SimpleData name="X_97">303866.45970000</SimpleData>
+		<SimpleData name="Y_97">2777104.74640000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53408209092893,25.101303875127794</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0024</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">德行里</SimpleData>
+		<SimpleData name="ST_NAME">雙溪右4A</SimpleData>
+		<SimpleData name="ST_ADDRESS">雙溪街、中山北路及至誠路交接處橋下旁</SimpleData>
+		<SimpleData name="X_97">303072.27089437</SimpleData>
+		<SimpleData name="Y_97">2777056.52155552</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52620616712846,25.10089665110457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0025</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">博嘉里</SimpleData>
+		<SimpleData name="ST_NAME">頭廷溪4A</SimpleData>
+		<SimpleData name="ST_ADDRESS">木柵路5段43巷(高速公路下方)</SimpleData>
+		<SimpleData name="X_97">309036.61539301</SimpleData>
+		<SimpleData name="Y_97">2766343.03968909</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.58488057003402,25.003955410466848</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0027</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">景美里</SimpleData>
+		<SimpleData name="ST_NAME">景美1A</SimpleData>
+		<SimpleData name="ST_ADDRESS">景美公園旁閘門</SimpleData>
+		<SimpleData name="X_97">304257.74337614</SimpleData>
+		<SimpleData name="Y_97">2765060.68249268</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5374872465401,24.992556934004408</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0028</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">木新里</SimpleData>
+		<SimpleData name="ST_NAME">木新2</SimpleData>
+		<SimpleData name="ST_ADDRESS">保儀路119巷(景文高中前)</SimpleData>
+		<SimpleData name="X_97">307271.05806700</SimpleData>
+		<SimpleData name="Y_97">2764294.80552367</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56730484165155,24.985531814686588</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0029</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">試院里</SimpleData>
+		<SimpleData name="ST_NAME">脾腹1</SimpleData>
+		<SimpleData name="ST_ADDRESS">木柵路1段58巷路口</SimpleData>
+		<SimpleData name="X_97">305251.74140000</SimpleData>
+		<SimpleData name="Y_97">2764455.31740000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54730942382986,24.987055815262575</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">O0030</SimpleData>
+		<SimpleData name="DISTRICT">內湖區</SimpleData>
+		<SimpleData name="VILLAGE">西安里</SimpleData>
+		<SimpleData name="ST_NAME">北安2</SimpleData>
+		<SimpleData name="ST_ADDRESS">環山路1段136巷(德明科大後明渠接箱涵處)</SimpleData>
+		<SimpleData name="X_97">307242.34586778</SimpleData>
+		<SimpleData name="Y_97">2775662.59297229</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.56749243739988,25.0881600726571</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0063</SimpleData>
+		<SimpleData name="DISTRICT">大安區</SimpleData>
+		<SimpleData name="VILLAGE">龍坡里</SimpleData>
+		<SimpleData name="REGION">新生抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">新生9</SimpleData>
+		<SimpleData name="ST_ADDRESS">和平東路1段264-3號前</SimpleData>
+		<SimpleData name="X_97">303851.32800000</SimpleData>
+		<SimpleData name="Y_97">2768781.76590000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53360649398276,25.026165281934428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0064</SimpleData>
+		<SimpleData name="DISTRICT">大安區</SimpleData>
+		<SimpleData name="VILLAGE">學府里</SimpleData>
+		<SimpleData name="REGION">新生抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">新生10</SimpleData>
+		<SimpleData name="ST_ADDRESS">新生南路三段33號</SimpleData>
+		<SimpleData name="X_97">303934.77750000</SimpleData>
+		<SimpleData name="Y_97">2768359.62170000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53441685316083,25.022351210982571</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0066</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">東華里</SimpleData>
+		<SimpleData name="REGION">奇岩抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">奇岩1</SimpleData>
+		<SimpleData name="ST_ADDRESS">公館路401號前</SimpleData>
+		<SimpleData name="X_97">300717.94921909</SimpleData>
+		<SimpleData name="Y_97">2779447.42144486</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50295234427158,25.122562423507734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0067</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">八仙里</SimpleData>
+		<SimpleData name="REGION">大業路東側和磺港溪間</SimpleData>
+		<SimpleData name="ST_NAME">大業東1</SimpleData>
+		<SimpleData name="ST_ADDRESS">中央南路2段62號前</SimpleData>
+		<SimpleData name="X_97">300427.68701226</SimpleData>
+		<SimpleData name="Y_97">2779502.30337290</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50007601801575,25.123067629692819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0068</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">興泰里</SimpleData>
+		<SimpleData name="REGION">興隆路幹線系統</SimpleData>
+		<SimpleData name="ST_NAME">興隆1</SimpleData>
+		<SimpleData name="ST_ADDRESS">興隆路2段323號前</SimpleData>
+		<SimpleData name="X_97">305906.76130000</SimpleData>
+		<SimpleData name="Y_97">2766020.48870000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.55386096871415,25.001162125403908</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0069</SimpleData>
+		<SimpleData name="DISTRICT">大同區</SimpleData>
+		<SimpleData name="VILLAGE">老師里</SimpleData>
+		<SimpleData name="REGION">迪化抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">迪化1</SimpleData>
+		<SimpleData name="ST_ADDRESS">延平北路4段181號</SimpleData>
+		<SimpleData name="X_97">301585.82720000</SimpleData>
+		<SimpleData name="Y_97">2774040.18170000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51135552922841,25.073716941692865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0070</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">臨溪里</SimpleData>
+		<SimpleData name="REGION">故宮排水系統</SimpleData>
+		<SimpleData name="ST_NAME">故宮1</SimpleData>
+		<SimpleData name="ST_ADDRESS">故宮路5號前</SimpleData>
+		<SimpleData name="X_97">305137.64877042</SimpleData>
+		<SimpleData name="Y_97">2776705.66268176</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5466693771814,25.097655090064553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0071</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">社新里</SimpleData>
+		<SimpleData name="REGION">社子抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">社子1</SimpleData>
+		<SimpleData name="ST_ADDRESS">延平北路6段152號前</SimpleData>
+		<SimpleData name="X_97">301131.01660000</SimpleData>
+		<SimpleData name="Y_97">2775793.80660000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50691245636868,25.08956400379023</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0072</SimpleData>
+		<SimpleData name="DISTRICT">萬華區</SimpleData>
+		<SimpleData name="VILLAGE">富福里</SimpleData>
+		<SimpleData name="REGION">雙園抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">雙園1</SimpleData>
+		<SimpleData name="ST_ADDRESS">和平西路與康定路口</SimpleData>
+		<SimpleData name="X_97">300579.00540000</SimpleData>
+		<SimpleData name="Y_97">2769773.59350000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50121881929439,25.035232357838854</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0073</SimpleData>
+		<SimpleData name="DISTRICT">大同區</SimpleData>
+		<SimpleData name="VILLAGE">民權里</SimpleData>
+		<SimpleData name="REGION">圓山、大龍、六館抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">圓山1</SimpleData>
+		<SimpleData name="ST_ADDRESS">承德路2段成淵高中前</SimpleData>
+		<SimpleData name="X_97">302287.14530000</SimpleData>
+		<SimpleData name="Y_97">2772636.50870000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51825394823847,25.061020570072234</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0074</SimpleData>
+		<SimpleData name="DISTRICT">中山區</SimpleData>
+		<SimpleData name="VILLAGE">永安里</SimpleData>
+		<SimpleData name="REGION">大直抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">大直1</SimpleData>
+		<SimpleData name="ST_ADDRESS">明水路399號前</SimpleData>
+		<SimpleData name="X_97">305263.78437123</SimpleData>
+		<SimpleData name="Y_97">2774468.14944453</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.54782998428611,25.077450516118407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0075</SimpleData>
+		<SimpleData name="DISTRICT">文山區</SimpleData>
+		<SimpleData name="VILLAGE">萬年里</SimpleData>
+		<SimpleData name="REGION">景美抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">景美1</SimpleData>
+		<SimpleData name="ST_ADDRESS">汀州路4段與105巷口</SimpleData>
+		<SimpleData name="X_97">304148.01887392</SimpleData>
+		<SimpleData name="Y_97">2766626.93483758</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.53646172670946,25.006700960029228</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0076</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">天祿里</SimpleData>
+		<SimpleData name="REGION">蘭興抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">蘭興1</SimpleData>
+		<SimpleData name="ST_ADDRESS">中山北路6段346號前</SimpleData>
+		<SimpleData name="X_97">303049.45026170</SimpleData>
+		<SimpleData name="Y_97">2778246.55403392</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52602587262464,25.111640913756009</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0077</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">石牌里</SimpleData>
+		<SimpleData name="REGION">東華抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">東華1</SimpleData>
+		<SimpleData name="ST_ADDRESS">東華街1段與明德路口</SimpleData>
+		<SimpleData name="X_97">302376.52962375</SimpleData>
+		<SimpleData name="Y_97">2777999.61106775</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51934414894082,25.10943506354829</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0078</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">榮華里</SimpleData>
+		<SimpleData name="REGION">東華抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">東華2</SimpleData>
+		<SimpleData name="ST_ADDRESS">明德路與150巷口</SimpleData>
+		<SimpleData name="X_97">302527.24490000</SimpleData>
+		<SimpleData name="Y_97">2778138.33180000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52084383710657,25.110682175624579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0079</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">八仙里</SimpleData>
+		<SimpleData name="REGION">百齡抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">百齡1</SimpleData>
+		<SimpleData name="ST_ADDRESS">公館路433號</SimpleData>
+		<SimpleData name="X_97">300623.42110000</SimpleData>
+		<SimpleData name="Y_97">2779183.10450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50200522042296,25.120179377535298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0080</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">立賢里</SimpleData>
+		<SimpleData name="REGION">百齡抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">百齡2</SimpleData>
+		<SimpleData name="ST_ADDRESS">吉利街與尊賢街口</SimpleData>
+		<SimpleData name="X_97">301075.60700000</SimpleData>
+		<SimpleData name="Y_97">2779006.93750000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.50648261136953,25.11857371025669</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0081</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">吉利里</SimpleData>
+		<SimpleData name="REGION">百齡抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">百齡4</SimpleData>
+		<SimpleData name="ST_ADDRESS">石牌路1段與致遠二路口(石牌國小旁)</SimpleData>
+		<SimpleData name="X_97">301657.54642421</SimpleData>
+		<SimpleData name="Y_97">2778513.09451455</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.5122345509355,25.114095528725851</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0082</SimpleData>
+		<SimpleData name="DISTRICT">北投區</SimpleData>
+		<SimpleData name="VILLAGE">建民里</SimpleData>
+		<SimpleData name="REGION">百齡抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">百齡5</SimpleData>
+		<SimpleData name="ST_ADDRESS">承德路與明德路口</SimpleData>
+		<SimpleData name="X_97">302120.23750000</SimpleData>
+		<SimpleData name="Y_97">2777651.35840000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.51678972739107,25.106299957512885</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#下水道水位站">
+		<SimpleData name="ST_NO">U0184</SimpleData>
+		<SimpleData name="DISTRICT">士林區</SimpleData>
+		<SimpleData name="VILLAGE">福林里</SimpleData>
+		<SimpleData name="REGION">士林抽水站系統</SimpleData>
+		<SimpleData name="ST_NAME">士林2</SimpleData>
+		<SimpleData name="ST_ADDRESS">文林路144巷底</SimpleData>
+		<SimpleData name="X_97">303125.76658794</SimpleData>
+		<SimpleData name="Y_97">2775677.73266362</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.52668325779381,25.088447221716645</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
