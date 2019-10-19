@@ -112,8 +112,9 @@ $(document).ready(function() {
   });
 
   $('#layer-btn-water').on('click', function() {
-    const waterPromise = new WorldWind.KmlFile('src/data/water.kml', [new WorldWind.KmlTreeVisibility('tree-controls', this.wwd)]);
-    var self = this;
+    console.log(globeAir)
+    const waterPromise = new WorldWind.KmlFile('src/data/water.kml', [new WorldWind.KmlTreeVisibility('tree-controls', globeAir.wwd)]);
+    
     waterPromise.then(kmlFile => {
       console.log('got', kmlFile)
       const renderableLayer = new WorldWind.RenderableLayer("Surface Shapes");
@@ -123,8 +124,8 @@ $(document).ready(function() {
       // ];
       renderableLayer.addRenderable(kmlFile);
   
-      self.wwd.addLayer(renderableLayer);
-      self.wwd.redraw();
+      globeAir.wwd.addLayer(renderableLayer);
+      globeAir.wwd.redraw();
     });
   });
 
