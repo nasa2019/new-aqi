@@ -211,6 +211,130 @@ body {
   background: #fff;
 }
 
+.map_btn_box {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.map_btn_box.clk {
+  right: 0;
+}
+
+.map_btn_box #map_btn_ctrl {
+  position: absolute;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  left: -45px;
+  width: 45px;
+  background: rgba(60, 60, 60, 0.6);
+  top: 0px;
+  border-radius: 0px 0 0 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.map_btn_box #map_btn_ctrl:hover {
+  border: 1px solid #14bf98;
+}
+
+.map_btn_box #map_btn_ctrl i {
+  position: relative;
+  display: inline;
+  font-size: 20px;
+  color: #33ca9d;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-animation: ctrlbtn_ab 2s linear 0s infinite alternate;
+          animation: ctrlbtn_ab 2s linear 0s infinite alternate;
+}
+
+.map_btn_box #map_btn_ctrl i.leaf {
+  color: #27ea5b;
+}
+
+.map_btn_box #map_btn_ctrl i.heartbeat {
+  color: #ef2b45;
+}
+
+@-webkit-keyframes ctrlbtn_ab {
+  0% {
+    font-size: 20px;
+  }
+  60% {
+    font-size: 18px;
+  }
+  80% {
+    font-size: 24px;
+    color: #fff;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
+@keyframes ctrlbtn_ab {
+  0% {
+    font-size: 20px;
+  }
+  60% {
+    font-size: 18px;
+  }
+  80% {
+    font-size: 24px;
+    color: #fff;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
+.map_btn_box .btn_box {
+  width: 250px;
+  height: 100vh;
+  padding: 15px;
+  background: rgba(134, 134, 134, 0.3);
+}
+
+.map_btn_box .btn_box button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: none;
+  border: 1px solid #14b6bf;
+  color: #88d9dd;
+  margin-bottom: 15px;
+  cursor: pointer;
+  text-align: left;
+  font-weight: 200;
+}
+
+.map_btn_box .btn_box button:hover {
+  background: #14b6bf;
+  color: #fff;
+}
+
+.map_btn_box .btn_box button i {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.map_btn_box .btn_box button span {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 html,
 body {
   background: black;
