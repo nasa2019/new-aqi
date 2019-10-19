@@ -42,11 +42,12 @@ $btn_color: #a3bed2;
   z-index: 50;
   width: 300px;
   max-height: 100vh;
+  height: 100vh;
   overflow: auto;
-  left: 15px;
-  top: 15px;
+  left: 0;
+  top: 0;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   .search_bar {
     display: block;
@@ -62,10 +63,17 @@ $btn_color: #a3bed2;
     display: block;
     margin-bottom: 10px;
     background: none;
-    color: $btn_color;
-    border: 1px solid $btn_color;
+    color: #80e2cc;
+    border: 1px solid #14bf98;
     width: 100%;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
+    font-weight: 200;
+    &:hover,
+    &.clk {
+      background: #14bf98;
+      color: #fff;
+    }
   }
   .area_box {
     position: relative;
@@ -129,44 +137,67 @@ $btn_color: #a3bed2;
   width: calc(100% - 380px);
   max-height: calc(100vh - 20px);
   overflow: auto;
-  padding: 15px;
+  padding:35px 15px 15px 15px;
   border-radius: 5px;
-  background: rgba(53, 53, 53, 0.8);
-  .data_list{
-      margin-bottom: 20px;
+  background: rgba(29, 29, 29, 0.8);
+
+  .close_btn {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    top: 15px;
+    right: 15px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50%;
+    background: #ff2e5d;
+    // background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    transition: .3;
+    &:hover{
+        background:#b31335;
+    }
   }
 
-  .title{
+  .data_list {
+    margin-bottom: 20px;
+  }
+
+  .title {
     margin-bottom: 10px;
     padding: 10px 5px;
     position: relative;
-      span{
-        color: #fff;
-        font-weight: bold;
-        font-size: 18px;
-      }
-      &:before{
-          content: '';
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          height: 2px;
-          display: inline-block;
-        //   background-image: linear-gradient(to top, #3c9ae8 0%, #009829 100%);
-          background-image: linear-gradient(120deg, #3c9ae8 0%, #009829 100%);
-      }
+    span {
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      display: inline-block;
+      //   background-image: linear-gradient(to top, #3c9ae8 0%, #009829 100%);
+      background-image: linear-gradient(120deg, #3c9ae8 0%, #009829 100%);
+    }
   }
 
-  .subtitle{
+  .subtitle {
     font-size: 14px;
     color: #ababab;
   }
 
-  .show_data_box{
+  .show_data_box {
     width: 100%;
     padding: 15px;
     border-radius: 5px;
-    background: rgba(0, 0, 0, 0.6);
+    background: #fff;
   }
 }
