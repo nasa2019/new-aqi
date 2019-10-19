@@ -91,39 +91,42 @@ $(document).ready(function() {
   });
 
   $('#layer-btn-uv-ray').on('click', function(){
-    console.log('clicked')
-    var uvRayPromise = new WorldWind.KmlFile('src/data/uv_ray.kml', [new WorldWind.KmlTreeVisibility('tree-controls', this.wwd)]);
-    console.log('requested', uvRayPromise)
-    uvRayPromise.then(function (kmlFile) {
-      console.log('got', kmlFile)
-      var renderableLayer = new WorldWind.RenderableLayer("Surface Shapes");
-      // renderableLayer.currentTimeInterval = [
-      //     new Date("Mon Aug 09 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf(),
-      //     new Date("Mon Aug 11 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf()
-      // ];
-      renderableLayer.addRenderable(kmlFile);
+    alert('hello btn 1')
+    // console.log('clicked')
+    // const wwd = this.wwd;
+    // const uvRayPromise = new WorldWind.KmlFile('src/data/uv_ray.kml', [new WorldWind.KmlTreeVisibility('tree-controls', wwd)]);
+    // console.log('requested', uvRayPromise)
+    // uvRayPromise.then(function (kmlFile) {
+    //   console.log('got', kmlFile)
+    //   const renderableLayer = new WorldWind.RenderableLayer("Surface Shapes");
+    //   // renderableLayer.currentTimeInterval = [
+    //   //     new Date("Mon Aug 09 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf(),
+    //   //     new Date("Mon Aug 11 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf()
+    //   // ];
+    //   renderableLayer.addRenderable(kmlFile);
 
-      this.wwd.addLayer(renderableLayer);
-      this.wwd.redraw();
-    })
+    //   wwd.addLayer(renderableLayer);
+    //   wwd.redraw();
+    // })
 
   });
 
   $('#layer-btn-water').on('click', function(){
     console.log('clicked')
-    var uvRayPromise = new WorldWind.KmlFile('src/data/water.kml', [new WorldWind.KmlTreeVisibility('tree-controls', this.wwd)]);
-    console.log('requested', uvRayPromise)
-    uvRayPromise.then(function (kmlFile) {
+    const wwd = this.wwd;
+    const waterPromise = new WorldWind.KmlFile('src/data/water.kml', [new WorldWind.KmlTreeVisibility('tree-controls', wwd)]);
+    console.log('requested', waterPromise)
+    waterPromise.then(function (kmlFile) {
       console.log('got', kmlFile)
-      var renderableLayer = new WorldWind.RenderableLayer("Surface Shapes");
+      const renderableLayer = new WorldWind.RenderableLayer("Surface Shapes");
       // renderableLayer.currentTimeInterval = [
       //     new Date("Mon Aug 09 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf(),
       //     new Date("Mon Aug 11 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf()
       // ];
       renderableLayer.addRenderable(kmlFile);
 
-      this.wwd.addLayer(renderableLayer);
-      this.wwd.redraw();
+      wwd.addLayer(renderableLayer);
+      wwd.redraw();
     })
   });
 
