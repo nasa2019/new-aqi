@@ -24,6 +24,21 @@
   
     <!-- Use container-fluid for 100% width and set padding to 0 -->
     <main role="main" class="container-fluid p-0">
+        <div class="ui modal" id="line-modal">
+          <i class="close icon"></i>
+          <div class="image content">
+              <canvas id="lineChart"></canvas>
+          </div>
+          <div class="actions">
+            <div class="ui black deny button">
+              Nope
+            </div>
+            <div class="ui positive right labeled icon button">
+              Yep, that's me
+              <i class="checkmark icon"></i>
+            </div>
+          </div>
+        </div>
       <div class="space_block">
           <!-- Globe -->
           <div id="globe" class="globe">
@@ -35,16 +50,7 @@
             >
               Try Chrome or FireFox.
             </canvas>
-            <canvas
-              id="globe-canvas-air"
-              class="d-block"
-              style="width: 600px;height: 600px"
-            >
-            Try Chrome or FireFox.
-            </canvas>
-          </div>
-
-         
+          </div>         
         <!-- 左邊選單 -->
         <div class="left_block">
           <!-- 搜尋 -->
@@ -170,10 +176,12 @@
     </main>
 
     <!-- JavaScript is placed at the end of the document so the page loads faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/worldwindjs@1.5.90/build/dist/worldwind.min.js"></script>
     <script src="./Semantic-UI-CSS-master/semantic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="./src/app.js"></script>
+    <script src="./src/chart.js"></script>
   </body>
