@@ -113,23 +113,23 @@ $(document).ready(function() {
 
   $('#layer-btn-water').on('click', function() {
     const waterPromise = new WorldWind.KmlFile('src/data/water.kml', [new WorldWind.KmlTreeVisibility('tree-controls', this.wwd)]);
-    waterPromise.then(kmlFile => handleKml(kmlFile).bind(this));
+    
+    waterPromise.then(kmlFile => {
+      console.log('got', kmlFile)
+      const renderableLayer = new WorldWind.RenderableLayer("Surface Shapes");
+      // renderableLayer.currentTimeInterval = [
+      //     new Date("Mon Aug 09 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf(),
+      //     new Date("Mon Aug 11 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf()
+      // ];
+      renderableLayer.addRenderable(kmlFile);
+  
+      this.wwd.addLayer(renderableLayer);
+      this.wwd.redraw();
+    });
   });
 
   $('#layer-btn-3').on('click', function(){
     alert('hello btn 3')
   });
 
-  function handleKml(kmlFile) {
-    console.log('got', kmlFile)
-    const renderableLayer = new WorldWind.RenderableLayer("Surface Shapes");
-    // renderableLayer.currentTimeInterval = [
-    //     new Date("Mon Aug 09 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf(),
-    //     new Date("Mon Aug 11 2015 12:10:10 GMT+0200 (Střední Evropa (letní čas))").valueOf()
-    // ];
-    renderableLayer.addRenderable(kmlFile);
-
-    this.wwd.addLayer(renderableLayer);
-    this.wwd.redraw();
-  }
 });
