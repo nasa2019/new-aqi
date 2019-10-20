@@ -42,8 +42,8 @@
           <i class="icon eye"></i>
         </a>
         <div class="btn_box">
-          <button type="button" onclick="mapCtrlButton(this,'leaf')"><i class="leaf icon"></i><span>環境空氣品質</span></button>
-          <button type="button" onclick="mapCtrlButton(this,'heartbeat')"><i class="heartbeat icon"></i><span>呼吸道疾病分佈</span></button>
+          <button name="layers" type="button" onclick="mapCtrlButton(this,'leaf')" value="air"><i class="leaf icon"></i><span>環境空氣品質</span></button>
+          <button name="layers" type="button" onclick="mapCtrlButton(this,'heartbeat')" value="disease"><i class="heartbeat icon"></i><span>呼吸道疾病分佈</span></button>
         </div>
       </div>
 
@@ -152,6 +152,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
   <script src="./src/app.js"></script>
   <script src="./src/chart.js"></script>
+  <script src="./src/layers.js"></script>
   <script>
     $(function () {
       $('.map_btn_ctrl').click(function(){
