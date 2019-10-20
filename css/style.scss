@@ -223,10 +223,10 @@ $btn_color: #a3bed2;
     background: rgba(60, 60, 60, 0.6);
     top: 0px;
     border-radius: 0px 0 0 10px;
-    border:1px solid rgba(255, 255, 255, 0.3);
-    transition: .3s;
-    &:hover{
-        border:1px solid #14bf98;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+    &:hover {
+      border: 1px solid #14bf98;
     }
     i {
       position: relative;
@@ -250,15 +250,15 @@ $btn_color: #a3bed2;
       font-size: 20px;
     }
     60% {
-        font-size: 18px;
-        // color:#fff;
+      font-size: 18px;
+      // color:#fff;
     }
     80% {
-        font-size: 24px;
-        color: #fff;
+      font-size: 24px;
+      color: #fff;
     }
     100% {
-        font-size: 20px;
+      font-size: 20px;
     }
   }
 
@@ -298,7 +298,29 @@ $btn_color: #a3bed2;
   }
 }
 
-//  星星
+.marquee_bar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  width: calc(100% - 300px);
+  //   background: rgba(134, 134, 134, 0.3);
+  span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #a9a9aa;
+  }
+  label {
+    font-size: 14px;
+    font-weight: 200;
+    margin-right: 20px;
+    color: #d4812a;
+  }
+}
+
+//  星星==============
 html,
 body {
   background: black;
