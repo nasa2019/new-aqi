@@ -38,12 +38,16 @@
 
       <!-- 地圖呈現(遮罩)切換 -->
       <div class="map_btn_box">
+
         <a href="javascript:;" class="map_btn_ctrl" id="map_btn_ctrl">
           <i class="icon eye"></i>
         </a>
         <div class="btn_box">
-          <button name="layers" type="button" onclick="mapCtrlButton(this,'leaf')" value="air"><i class="leaf icon"></i><span>皮膚性疾病</span></button>
-          <button name="layers" type="button" onclick="mapCtrlButton(this,'heartbeat')" value="disease"><i class="heartbeat icon"></i><span>呼吸道疾病</span></button>
+          <p class="map_btn_title">NewAQI Model</p>
+          <button name="layers" type="button" onclick="mapCtrlButton(this,'leaf')" value="air"><i
+              class="leaf icon"></i><span>皮膚性疾病</span></button>
+          <button name="layers" type="button" onclick="mapCtrlButton(this,'heartbeat')" value="disease"><i
+              class="heartbeat icon"></i><span>呼吸道疾病</span></button>
         </div>
       </div>
       <!-- 地圖呈現(遮罩)切換(end) -->
@@ -132,7 +136,7 @@
             </p>
             <!-- 數值圖表 -->
             <div class="show_data_box">
-                <canvas id="barChart"></canvas>
+              <canvas id="barChart"></canvas>
             </div>
           </div>
 
@@ -162,7 +166,7 @@
   <script src="./src/chart.js"></script>
   <script>
     $(function () {
-      $('.map_btn_ctrl').click(function(){
+      $('.map_btn_ctrl').click(function () {
         $('.map_btn_box').toggleClass('clk');
       });
     });
@@ -177,8 +181,8 @@
       $(data_box).fadeOut();
     }
 
-    function mapCtrlButton(elem,class_name){
-      $('#map_btn_ctrl').find('i').attr('class',class_name+' icon');
+    function mapCtrlButton(elem, class_name) {
+      $('#map_btn_ctrl').find('i').attr('class', class_name + ' icon');
       // $('#map_btn_ctrl').addClass(class_name+' .icon ');
       $('.map_btn_box').removeClass('clk');
     }
