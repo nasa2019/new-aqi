@@ -203,7 +203,7 @@ var config = {
         display: true,
         scaleLabel: {
           display: true,
-          labelString: 'PM2.5'
+          labelString: 'NewAQI'
         }
       }]
     }
