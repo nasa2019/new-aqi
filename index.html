@@ -1,131 +1,228 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>WorldWindJS Example</title>
+  <title>Taiwan NewAQI</title>
 
-    <!-- Bootstrap 4.0 CSS compiled and minified -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Bootstrap 4.0 CSS compiled and minified -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Font Awesome icons (see: https://fontawesome.com/icons?d=gallery) -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <!-- Font Awesome icons (see: https://fontawesome.com/icons?d=gallery) -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+    integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
-    <!-- Custom styles and overrides -->
-    <link href="./css/app.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
+  <!-- Custom styles and overrides -->
+  <link href="./Semantic-UI-CSS-master/semantic.min.css" rel="stylesheet">
+  <link href="./css/app.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/chart.css">
+</head>
 
-  <body>
+<body>
+  <div id="space"></div>
 
-  
-    <!-- Use container-fluid for 100% width and set padding to 0 -->
-    <main role="main" class="container-fluid p-0">
-      <div class="space_block">
-          <!-- Globe -->
-          <div id="globe" class="globe">
-            <!--.d-block ensures the size is correct (prevents a scrollbar from appearing)-->
-            <canvas
-              id="globe-canvas-air"
-              class="d-block"
-              style="width: 500px;height: 500px"
-            >
-              Try Chrome or FireFox.
-            </canvas>
-            <canvas
-              id="globe-canvas-air"
-              class="d-block"
-              style="width: 500px;height: 500px"
-            >
-            Try Chrome or FireFox.
-            </canvas>
-          </div>
+  <!-- Use container-fluid for 100% width and set padding to 0 -->
+  <main role="main" class="container-fluid p-0">
+    <div class="space_block">
+      <!-- Globe -->
+      <div id="globe" class="globe">
+        <!--.d-block ensures the size is correct (prevents a scrollbar from appearing)-->
+        <canvas id="globe-canvas-air" class="d-block" style="width: 100%;height: 100%">
+          Try Chrome or FireFox.
+        </canvas>
+      </div>
 
-        <!--Panels-->
-        <div class="globe-overlay noninteractive w-100">
-          <div class="card-columns">
-            <!--Layers-->
-            <div class="collapse" id="layers">
-              <div class="card globe-card interactive">
-                <div class="card-header">
-                  <h5 class="card-title">
-                    <span class="fas fa-list" aria-hidden="true"></span> Layers
-                    <button type="button" class="close pull-right" aria-label="Close">
-                                          <span aria-hidden="true">&times;</span>
-                                      </button></h5>
-                </div>
-                <div class="card-body">
-                  <p class="card-text">Layer list goes here.</p>
-                </div>
-              </div>
-            </div>
-            <!--Markers-->
-            <div class="collapse" id="markers">
-              <div class="card globe-card interactive">
-                <div class="card-header">
-                  <h5 class="card-title">
-                    <span class="fas fa-map-marker-alt" aria-hidden="true"></span> Markers
-                    <button type="button" class="close pull-right" aria-label="Close">
-                                          <span aria-hidden="true">&times;</span>
-                                      </button></h5>
-                </div>
-                <div class="card-body">
-                  <p class="card-text">Marker list goes here.</p>
-                </div>
-              </div>
-            </div>
-            <!--Settings-->
-            <div class="collapse" id="settings">
-              <div class="card globe-card interactive">
-                <div class="card-header">
-                  <h5 class="card-title">
-                    <span class="fas fa-cog" aria-hidden="true"></span> Settings
-                    <button type="button" class="close pull-right" aria-label="Close">
-                                          <span aria-hidden="true">&times;</span>
-                                      </button></h5>
-                </div>
-                <div class="card-body">
-                  <p class="card-text">Settings go here.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--Search Preview Dialog-->
-        <div id="preview">
-          <div id="preview-dialog" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Search Results</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">&times;</span>
-                                  </button>
-                </div>
-                <div class="modal-body">
-                  <p>
-                    Search result go here
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Go to</button>
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                </div>
-              </div>
-            </div>
-          </div>
+      <!-- 地圖呈現(遮罩)切換 -->
+      <div class="map_btn_box">
+        <a href="javascript:;" class="map_btn_ctrl" id="map_btn_ctrl">
+          <i class="icon eye"></i>
+        </a>
+        <div class="btn_box">
+          <button name="layers" type="button" onclick="mapCtrlButton(this,'leaf')" value="air"><i class="leaf icon"></i><span>皮膚性疾病</span></button>
+          <button name="layers" type="button" onclick="mapCtrlButton(this,'heartbeat')" value="disease"><i class="heartbeat icon"></i><span>呼吸道疾病</span></button>
         </div>
       </div>
-  
+      <!-- 地圖呈現(遮罩)切換(end) -->
 
-    </main>
+      <marquee class="marquee_bar">
+        <span>O3(ppb)臭氧</span>
+        <label>8小時 移動平均:58 小時濃度:53 </label>
+        <span>PM2.5(μg/m3)細懸浮微粒</span>
+        <label>移動平均:12 小時濃度:11 </label>
+        <span>PM10(μg/m3)懸浮微粒</span>
+        <label>移動平均:35 小時濃度:32</label>
+        <span>CO(ppm)一氧化碳</span>
+        <label>8小時移動平均:0.20 小時濃度:0.26</label>
+        <span>SO2(ppb)二氧化硫</span>
+        <label>小時濃度:1.6</label>
+      </marquee>
 
-    <!-- JavaScript is placed at the end of the document so the page loads faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/worldwindjs@1.5.90/build/dist/worldwind.min.js"></script>
-    <script src="./src/app.js"></script>
-  </body>
+
+      <!-- 左邊選單 -->
+      <div class="left_block">
+        <!-- 搜尋 -->
+        <div class="ui icon input search_bar">
+          <input type="text" placeholder="Search...">
+          <i class="inverted circular search link icon"></i>
+        </div>
+
+        <div class="area_box">
+          <span>TAIWAN</span>
+        </div>
+
+        <button class="ui button city_btn clk" onClick="openDataBox(this,'.city_btn')">
+          基隆市
+        </button>
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
+          台北市
+        </button>
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
+          新北市
+        </button>
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
+          桃園市
+        </button>
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
+          基隆市
+        </button>
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
+          台北市
+        </button>
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
+          新北市
+        </button>
+        <button class="ui button city_btn" onClick="openDataBox(this,'.city_btn')">
+          桃園市
+        </button>
+
+      </div>
+      <!-- 左邊選單(end) -->
+
+      <!-- 視覺化顯示 -->
+      <div class="data_block">
+        <a href="javascript:;" class="close_btn" onclick="closeDataBox('.data_block')">
+          &times;
+        </a>
+        <!-- 內容 -->
+        <div class="content_block">
+
+          <div class="data_list">
+            <p class="title">
+              <span>Chart of NewAQI</span>
+            </p>
+            <p class="subtitle">
+              NewAQI vs. Disease
+            </p>
+            <!-- 數值圖表 -->
+            <div class="show_data_box">
+              <canvas id="lineChart"></canvas>
+            </div>
+          </div>
+
+          <div class="data_list">
+            <p class="title">
+              <span>Histogram of NewAQI</span>
+            </p>
+            <p class="subtitle">
+              NewAQI vs. Disease
+            </p>
+            <!-- 數值圖表 -->
+            <div class="show_data_box">
+                <canvas id="barChart"></canvas>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <!-- 視覺化顯示(end) -->
+
+    </div>
+
+
+  </main>
+
+  <!-- JavaScript is placed at the end of the document so the page loads faster -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/worldwindjs@1.5.90/build/dist/worldwind.min.js"></script>
+  <script src="./Semantic-UI-CSS-master/semantic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
+  <script src="./src/app.js"></script>
+  <script src="./src/chart.js"></script>
+  <script>
+    $(function () {
+      $('.map_btn_ctrl').click(function(){
+        $('.map_btn_box').toggleClass('clk');
+      });
+    });
+
+    function openDataBox(elem, class_name) {
+      $(class_name).removeClass('clk');
+      $(elem).addClass('clk');
+      $('.data_block').fadeIn();
+    }
+
+    function closeDataBox(data_box) {
+      $(data_box).fadeOut();
+    }
+
+    function mapCtrlButton(elem,class_name){
+      $('#map_btn_ctrl').find('i').attr('class',class_name+' icon');
+      // $('#map_btn_ctrl').addClass(class_name+' .icon ');
+      $('.map_btn_box').removeClass('clk');
+    }
+
+  </script>
+</body>
+
+<script>
+
+  var fragment = document.createDocumentFragment()
+  for (var i = 0; i < 500; i++) {
+    var lightEle = document.createElement('div')
+    lightEle.setAttribute('class', 'light')
+    fragment.appendChild(lightEle)
+  }
+  document.getElementById('space').appendChild(fragment)
+  var random, Y, X, Z, RY, RX, RZ, S, pos;
+  var concentration = 2000;
+
+  function newX() {
+    return Math.floor((Math.random() * concentration) + 1);
+  }
+  function newY() {
+    return Math.floor((Math.random() * concentration) + 1);
+  }
+  function newZ() {
+    return Math.floor((Math.random() * concentration) + 1);
+  }
+  function newAngle() {
+    return Math.floor((Math.random() * 360) + 1);
+  }
+
+  $(".light").each(function () {
+    Y = 'translateY(' + newY() + 'px) ';
+    X = 'translateX(' + newX() + 'px) ';
+    Z = 'translateZ(' + newZ() + 'px) ';
+    RY = 'rotateY(' + newAngle() + 'deg)';
+    RX = 'rotateX(' + newAngle() + 'deg)';
+    RZ = 'rotateZ(' + newAngle() + 'deg)';
+    S = 'scale(' + Math.floor((Math.random() * 20) + 1) + ')';
+    $(this).css('transform', Y + X + Z + RY + RX + RZ);
+  });
+
+  $('#scale').click(function (event) {
+    $('#space').css('transfom', 'scale(5)');
+  });
+</script>
