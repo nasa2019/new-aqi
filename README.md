@@ -1,7 +1,7 @@
 # Taiwan newAQI Visualizer
 Team: _The Jaws of Death_  
 from: _2019 NASA Hackthon_  
-  
+Demo: http://ec2-52-42-97-221.us-west-2.compute.amazonaws.com/  
   
 ## User Story  
 * As a user of citizen who care air quality for disease.
