@@ -209,53 +209,67 @@ var config = {
     }
   }
 };
-window.onload = function() {
-  var ctx = document.getElementById('lineChart').getContext('2d');
-  window.myLine = new Chart(ctx, config);
+var color = Chart.helpers.color;
+var horizontalBarChartData = {
+	labels: ['心臟疾病', '中風', '慢性肺部阻塞疾病', '肺癌', '急性下呼吸道感染'],
+	datasets: [{
+		label: 'Pollution',
+		backgroundColor: '#14bf98',
+		borderColor: '#14bf98',
+		borderWidth: 1,
+		data: [
+			randomScalingFactor(),
+			randomScalingFactor(),
+			randomScalingFactor(),
+			randomScalingFactor(),
+			randomScalingFactor(),
+			randomScalingFactor(),
+			randomScalingFactor()
+		]
+	}, {
+		label: 'Disease',
+		backgroundColor: '#ff2e5d',
+		borderColor: '#ff2e5d',
+		data: [
+			randomScalingFactor(),
+			randomScalingFactor(),
+			randomScalingFactor(),
+			randomScalingFactor(),
+			randomScalingFactor(),
+			randomScalingFactor(),
+			randomScalingFactor()
+		]
+	}]
 };
-// document.getElementById('randomizeData').addEventListener('click', function() {
-//   config.data.datasets.forEach(function(dataset) {
-//     dataset.data = dataset.data.map(function() {
-//       return randomScalingFactor();
-//     });
-//   });
-//   window.myLine.update();
-// });
-// var colorNames = Object.keys(window.chartColors);
-// document.getElementById('addDataset').addEventListener('click', function() {
-//   var colorName = colorNames[config.data.datasets.length % colorNames.length];
-//   var newColor = window.chartColors[colorName];
-//   var newDataset = {
-//     label: 'Dataset ' + config.data.datasets.length,
-//     backgroundColor: newColor,
-//     borderColor: newColor,
-//     data: [],
-//     fill: false
-//   };
-//   for (var index = 0; index < config.data.labels.length; ++index) {
-//     newDataset.data.push(randomScalingFactor());
-//   }
-//   config.data.datasets.push(newDataset);
-//   window.myLine.update();
-// });
-// document.getElementById('addData').addEventListener('click', function() {
-//   if (config.data.datasets.length > 0) {
-//     var month = MONTHS[config.data.labels.length % MONTHS.length];
-//     config.data.labels.push(month);
-//     config.data.datasets.forEach(function(dataset) {
-//       dataset.data.push(randomScalingFactor());
-//     });
-//     window.myLine.update();
-//   }
-// });
-// document.getElementById('removeDataset').addEventListener('click', function() {
-//   config.data.datasets.splice(0, 1);
-//   window.myLine.update();
-// });
-// document.getElementById('removeData').addEventListener('click', function() {
-//   config.data.labels.splice(-1, 1); // remove the label first
-//   config.data.datasets.forEach(function(dataset) {
-//     dataset.data.pop();
-//   });
-//   window.myLine.update();
-// });
+
+window.onload = function() {
+	var ctxbar = document.getElementById('barChart').getContext('2d');
+	var ctxline = document.getElementById('lineChart').getContext('2d');
+  window.myLine = new Chart(ctxline, config);
+	window.myHorizontalBar = new Chart(ctxbar, {
+		type: 'horizontalBar',
+		data: horizontalBarChartData,
+		options: {
+			// Elements options apply to all of the options unless overridden in a dataset
+			// In this case, we are setting the border of each horizontal bar to be 2px wide
+			elements: {
+				rectangle: {
+					borderWidth: 2,
+				}
+			},
+			responsive: true,
+			legend: {
+				position: 'right',
+			},
+			title: {
+				display: false,
+				text: 'Chart.js Horizontal Bar Chart'
+			}
+		}
+	});
+};
+
+// window.onload = function() {
+//   var ctx = document.getElementById('lineChart').getContext('2d');
+//   window.myLine = new Chart(ctx, config);
+// };
