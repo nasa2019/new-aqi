@@ -4,7 +4,14 @@ body {
 }
 
 /*Sets the size and style of the globe container*/
-
+#popup{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: #fff;
+  z-index: 9999;
+}
 .globe {
   width: 100%;
   height: calc(100vh - 3.5rem);
